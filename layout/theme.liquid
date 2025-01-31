@@ -72,7 +72,7 @@
   {% liquid
   assign background_color = scheme.settings.background
   assign background_color_brightness = background_color | color_brightness
-  if background_color_brightness <= 26 assign background_color_contrast=background_color | color_lighten: 50 elsif
+  if background_color_brightness <= 26 assign background_color_contrast=background_color | color_lighten: 50 else if
     background_color_brightness <=65 assign background_color_contrast=background_color | color_lighten: 5 else assign
     background_color_contrast=background_color | color_darken: 25 endif %} --color-foreground: {{
     scheme.settings.text.red }},{{ scheme.settings.text.green }},{{ scheme.settings.text.blue }};
@@ -288,7 +288,7 @@
     {{ 'accessibility.skip_to_text' | t }}
   </a>
 
-  <h1>Hello World </h1>
+  <h1>Hello World again </h1>
   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis blanditiis id fugiat voluptas maiores ratione aut.
     Cumque, provident laudantium accusantium tenetur eius tempore, numquam voluptatum aliquid ab beatae quisquam sint!
   </p>
