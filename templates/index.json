@@ -97,7 +97,8 @@
         "column_XhaBhN"
       ],
       "custom_css": [
-        "img.multicolumn-card__image {max-width: 50px !important; height: auto !important;}"
+        "/* img.multicolumn-card__image {max-width: 50px !important; height: auto !important;}",
+        " */img.multicolumn-card__image {max-width: 50px !important;}"
       ],
       "settings": {
         "title": "",
