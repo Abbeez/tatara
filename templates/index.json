@@ -166,14 +166,14 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Accessories That Work as Hard as You Do",
+        "title": "Explore Tatara Accessories",
         "heading_size": "h2",
-        "description": "<p>Designed for professionals and enthusiasts alike, Tatara accessories provide the perfect balance of quality and performance.</p>",
+        "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "all",
         "products_to_show": 8,
-        "columns_desktop": 4,
+        "columns_desktop": 5,
         "full_width": false,
         "show_view_all": false,
         "view_all_style": "solid",
