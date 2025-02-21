@@ -15,21 +15,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Precision in Every Cut. Strength in Every Tool.",
+            "heading": "Precision Accessories, Crafted for Excellence",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Tatara brings you high-quality Japanese accessories built for durability, precision, and performance.",
+            "text": "Tatara delivers high-quality Japanese accessories designed for durability, efficiency, and precision.",
             "text_style": "body"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Now",
+            "button_label_1": "Explore Our Collection",
             "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
@@ -63,8 +63,8 @@
         "column_D7Bj3Q": {
           "type": "column",
           "settings": {
-            "title": "Precision Engineering",
-            "text": "<h4>Unmatched Precision for Every Task</h4><p>Tatara tools are designed with superior craftsmanship, ensuring accuracy and efficiency in every cut, grind, and polish. Whether you're a professional or a DIY enthusiast, precision is always within your reach.</p>",
+            "title": "Precision Craftsmanship",
+            "text": "<p><strong>Small Details. Big Impact</strong></p><p>Tatara accessories are designed with precision to enhance your workflow and performance.</p>",
             "link_label": "",
             "link": ""
           }
@@ -73,7 +73,7 @@
           "type": "column",
           "settings": {
             "title": "Built to Last",
-            "text": "<h4>Durability That Goes the Distance</h4><p>Made with high-grade materials and cutting-edge technology, our tools withstand even the toughest jobs. Invest in tools that work as hard as you do—Tatara delivers strength and longevity.</p>",
+            "text": "<p><strong>Durability Meets Functionality</strong></p><p>Engineered with premium materials, our accessories withstand daily wear and deliver long-lasting reliability.</p>",
             "link_label": "",
             "link": ""
           }
@@ -82,7 +82,7 @@
           "type": "column",
           "settings": {
             "title": "Performance You Can Trust",
-            "text": "<h4>Power & Efficiency in Every Use</h4><p>Experience seamless performance with tools that deliver maximum efficiency. From sharpening stones to power tool accessories, Tatara ensures smooth operation for every project.</p>",
+            "text": "<p><strong>Enhance Every Task.</strong></p><p>From sharpening to finishing touches, Tatara accessories provide the efficiency and ease you need.</p>",
             "link_label": "",
             "link": ""
           }
@@ -113,9 +113,9 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "Accessories That Work as Hard as You Do",
         "heading_size": "h2",
-        "description": "",
+        "description": "<p>Designed for professionals and enthusiasts alike, Tatara accessories provide the perfect balance of quality and performance.</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "all",
@@ -131,7 +131,7 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
-        "quick_add": "none",
+        "quick_add": "bulk",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 28,
@@ -188,9 +188,9 @@
     "featured_collection_CEXW3Y": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "Essential Additions for Every Project",
         "heading_size": "h2",
-        "description": "",
+        "description": "<p>Complete your setup with high-performance accessories crafted to elevate precision and efficiency.</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "all",
