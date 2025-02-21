@@ -394,56 +394,66 @@
         "collapsible_row_WN6p4x": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "What is Tatara?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Tatara specializes in high-quality Japanese accessories designed for precision, durability, and performance.</p>",
             "page": ""
           }
         },
-        "collapsible_row_jzUKGT": {
+        "collapsible_row_JTt6dB": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Are Tatara accessories made in Japan?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Tatara accessories are designed with Japanese precision and craftsmanship, ensuring top-tier quality and performance.</p>",
             "page": ""
           }
         },
         "collapsible_row_bEFWUe": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Do you have a physical store?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Currently, we operate online only. You can shop conveniently through this website and  our upcoming Tiktok, Lazada and Shopee stores.</p>",
             "page": ""
           }
         },
-        "collapsible_row_GD8zWe": {
+        "collapsible_row_4tbNcV": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "What payment methods do you accept?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>We accept <strong>bank transfers, GCash, and COD</strong> (Cash on Delivery) for select areas. More payment options will be available on Lazada and Shopee once we launch.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_mVwzxD": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long does shipping take?",
+            "icon": "check_mark",
+            "row_content": "<p>Delivery times depend on your location:<br/>📍 <strong>Metro Manila</strong> – 1 to 3 days<br/>📍 <strong>Provincial Areas</strong> – 3 to 7 days</p>",
             "page": ""
           }
         }
       },
       "block_order": [
         "collapsible_row_WN6p4x",
-        "collapsible_row_jzUKGT",
+        "collapsible_row_JTt6dB",
         "collapsible_row_bEFWUe",
-        "collapsible_row_GD8zWe"
+        "collapsible_row_4tbNcV",
+        "collapsible_row_mVwzxD"
       ],
       "settings": {
-        "caption": "",
-        "heading": "Frequently Asked Question",
+        "caption": "Frequently Asked Questions (FAQ)",
+        "heading": "Got Questions? We’ve Got Answers!",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "section",
-        "color_scheme": "scheme-5",
-        "container_color_scheme": "scheme-5",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
+        "color_scheme": "scheme-1",
+        "container_color_scheme": "scheme-1",
+        "open_first_collapsible_row": true,
+        "image_ratio": "large",
         "desktop_layout": "image_second",
         "padding_top": 36,
         "padding_bottom": 36
