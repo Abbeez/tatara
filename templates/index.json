@@ -44,6 +44,7 @@
         "button"
       ],
       "settings": {
+        "image": "shopify://shop_images/wooden-desk-with-tools.jpg",
         "image_overlay_opacity": 40,
         "image_height": "small",
         "desktop_content_position": "middle-left",
@@ -169,6 +170,7 @@
         "button_Xp3WYX"
       ],
       "settings": {
+        "image": "shopify://shop_images/tools-for-building-construction.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -243,6 +245,7 @@
         "button_zXQwbX"
       ],
       "settings": {
+        "image": "shopify://shop_images/hand-tools-stored-in-wooden-holder.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
