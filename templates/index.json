@@ -63,6 +63,7 @@
         "column_D7Bj3Q": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/007-wrench.png",
             "title": "Precision Craftsmanship",
             "text": "<p><strong>Small Details. Big Impact</strong></p><p>Tatara accessories are designed with precision to enhance your workflow and performance.</p>",
             "link_label": "",
@@ -72,6 +73,7 @@
         "column_3N7zRE": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/004-durable.png",
             "title": "Built to Last",
             "text": "<p><strong>Durability Meets Functionality</strong></p><p>Engineered with premium materials, our accessories withstand daily wear and deliver long-lasting reliability.</p>",
             "link_label": "",
@@ -81,6 +83,7 @@
         "column_XhaBhN": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/006-wheelbarrow.png",
             "title": "Performance You Can Trust",
             "text": "<p><strong>Enhance Every Task.</strong></p><p>From sharpening to finishing touches, Tatara accessories provide the efficiency and ease you need.</p>",
             "link_label": "",
@@ -96,7 +99,7 @@
       "settings": {
         "title": "",
         "heading_size": "h1",
-        "image_width": "full",
+        "image_width": "third",
         "image_ratio": "square",
         "columns_desktop": 3,
         "column_alignment": "center",
