@@ -15,21 +15,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Precision in Every Cut. Strength in Every Tool.",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "Tatara brings you high-quality Japanese accessories built for durability, precision, and performance.",
             "text_style": "body"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "Shop Now",
             "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
@@ -63,8 +63,8 @@
         "column_D7Bj3Q": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Precision Engineering",
+            "text": "<h4>Unmatched Precision for Every Task</h4><p>Tatara tools are designed with superior craftsmanship, ensuring accuracy and efficiency in every cut, grind, and polish. Whether you're a professional or a DIY enthusiast, precision is always within your reach.</p>",
             "link_label": "",
             "link": ""
           }
@@ -72,8 +72,8 @@
         "column_3N7zRE": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Built to Last",
+            "text": "<h4>Durability That Goes the Distance</h4><p>Made with high-grade materials and cutting-edge technology, our tools withstand even the toughest jobs. Invest in tools that work as hard as you do—Tatara delivers strength and longevity.</p>",
             "link_label": "",
             "link": ""
           }
@@ -81,8 +81,8 @@
         "column_XhaBhN": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Performance You Can Trust",
+            "text": "<h4>Power & Efficiency in Every Use</h4><p>Experience seamless performance with tools that deliver maximum efficiency. From sharpening stones to power tool accessories, Tatara ensures smooth operation for every project.</p>",
             "link_label": "",
             "link": ""
           }

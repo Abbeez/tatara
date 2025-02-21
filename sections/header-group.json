@@ -20,18 +20,10 @@
             "text": "Welcome to our store",
             "link": ""
           }
-        },
-        "announcement-bar-0": {
-          "type": "announcement",
-          "settings": {
-            "text": "Browse Our Products",
-            "link": ""
-          }
         }
       },
       "block_order": [
-        "announcement_d9pjpt",
-        "announcement-bar-0"
+        "announcement_d9pjpt"
       ],
       "settings": {
         "color_scheme": "scheme-f520fdb2-2f86-4380-9a44-51cd7d0a051a",
