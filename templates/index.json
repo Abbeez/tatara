@@ -110,6 +110,53 @@
         "padding_bottom": 52
       }
     },
+    "image_with_text_JqJRnX": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_cGDqRK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Accessories That Work as Hard as You Do",
+            "heading_size": "h1"
+          }
+        },
+        "text_DXmnjC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Designed for professionals and enthusiasts alike, Tatara accessories provide the perfect balance of quality and performance.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_Xp3WYX": {
+          "type": "button",
+          "settings": {
+            "button_label": "Explore Accessories",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_cGDqRK",
+        "text_DXmnjC",
+        "button_Xp3WYX"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/tools-for-building-construction.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "scheme-f520fdb2-2f86-4380-9a44-51cd7d0a051a",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -138,47 +185,47 @@
         "padding_bottom": 36
       }
     },
-    "image_with_text_JqJRnX": {
+    "image_with_text_eBFTyT": {
       "type": "image-with-text",
       "blocks": {
-        "heading_cGDqRK": {
+        "heading_nVKNdb": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Essential Additions for Every Project",
             "heading_size": "h1"
           }
         },
-        "text_DXmnjC": {
+        "text_KWkwBw": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Complete your setup with high-performance accessories crafted to elevate precision and efficiency.</p>",
             "text_style": "body"
           }
         },
-        "button_Xp3WYX": {
+        "button_zXQwbX": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Tatara Essentials",
+            "button_link": "#",
             "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "heading_cGDqRK",
-        "text_DXmnjC",
-        "button_Xp3WYX"
+        "heading_nVKNdb",
+        "text_KWkwBw",
+        "button_zXQwbX"
       ],
       "settings": {
-        "image": "shopify://shop_images/tools-for-building-construction.jpg",
+        "image": "shopify://shop_images/hand-tools-stored-in-wooden-holder.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-5",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -210,53 +257,6 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_eBFTyT": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_nVKNdb": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "text_KWkwBw": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_zXQwbX": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_nVKNdb",
-        "text_KWkwBw",
-        "button_zXQwbX"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/hand-tools-stored-in-wooden-holder.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -386,10 +386,10 @@
   "order": [
     "image_banner",
     "multicolumn_EM3Ejm",
-    "featured_collection",
     "image_with_text_JqJRnX",
-    "featured_collection_CEXW3Y",
+    "featured_collection",
     "image_with_text_eBFTyT",
+    "featured_collection_CEXW3Y",
     "multicolumn",
     "featured_collection_yPPRkU",
     "rich_text"
