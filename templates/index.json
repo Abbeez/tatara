@@ -44,8 +44,8 @@
         "button"
       ],
       "settings": {
-        "image": "shopify://shop_images/wooden-desk-with-tools.jpg",
-        "image_overlay_opacity": 40,
+        "image": "shopify://shop_images/Tatara_Official_Webstore.png",
+        "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "middle-left",
         "show_text_box": false,
