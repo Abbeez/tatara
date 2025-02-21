@@ -64,8 +64,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/008-tool-box-1_a1732c6a-efe7-4d9f-9377-f3ce213f1e11.png",
-            "title": "Precision Craftsmanship",
-            "text": "<p><strong>Small Details. Big Impact</strong></p><p>Tatara accessories are designed with precision to enhance your workflow and performance.</p>",
+            "title": "<strong>Small Details. Big Impact</strong>",
+            "text": "<p>Tatara accessories are designed with precision to enhance your workflow and performance.</p>",
             "link_label": "",
             "link": ""
           }
@@ -74,8 +74,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/004-durable_f5d13a66-1eef-47cf-a87e-bee0eb8e75f9.png",
-            "title": "Built to Last",
-            "text": "<p><strong>Durability Meets Functionality</strong></p><p>Engineered with premium materials, our accessories withstand daily wear and deliver long-lasting reliability.</p>",
+            "title": "<strong>Durability Meets Functionality</strong>",
+            "text": "<p>Engineered with premium materials, our accessories withstand daily wear and deliver long-lasting reliability.</p>",
             "link_label": "",
             "link": ""
           }
@@ -84,8 +84,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/007-wrench_5025034b-b950-4f96-942d-ea2a4effde7d.png",
-            "title": "Performance You Can Trust",
-            "text": "<p><strong>Enhance Every Task.</strong></p><p>From sharpening to finishing touches, Tatara accessories provide the efficiency and ease you need.</p>",
+            "title": "<strong>Enhance Every Task</strong>",
+            "text": "<p>From sharpening to finishing touches, Tatara accessories provide the efficiency and ease you need.</p>",
             "link_label": "",
             "link": ""
           }
