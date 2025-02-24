@@ -249,22 +249,12 @@
             "link_label": "",
             "link": ""
           }
-        },
-        "column_VLxqbV": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "column_iHY6jq",
         "column_Tj6xbA",
-        "column_ebDNJJ",
-        "column_VLxqbV"
+        "column_ebDNJJ"
       ],
       "settings": {
         "title": "",
@@ -312,22 +302,12 @@
             "row_content": "",
             "page": ""
           }
-        },
-        "collapsible_row_HbQFfC": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
         }
       },
       "block_order": [
         "collapsible_row_g8JeXW",
         "collapsible_row_9eB98K",
-        "collapsible_row_AbkDQ7",
-        "collapsible_row_HbQFfC"
+        "collapsible_row_AbkDQ7"
       ],
       "settings": {
         "caption": "lorem ipsum",
