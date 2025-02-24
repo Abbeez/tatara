@@ -40,8 +40,8 @@
         "text_brK3Hr"
       ],
       "settings": {
-        "image": "shopify://shop_images/Tatara_Official_Webstore.png",
-        "image_overlay_opacity": 0,
+        "image": "shopify://shop_images/hand-tools-stored-in-wooden-holder.jpg",
+        "image_overlay_opacity": 60,
         "image_height": "small",
         "desktop_content_position": "middle-left",
         "show_text_box": false,
