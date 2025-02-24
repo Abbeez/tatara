@@ -33,31 +33,19 @@
             "text": "Give customers details about the banner image(s) or content on the template.",
             "text_style": "body"
           }
-        },
-        "buttons_z73UKQ": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "heading_8yyWfe",
-        "text_brK3Hr",
-        "buttons_z73UKQ"
+        "text_brK3Hr"
       ],
       "settings": {
         "image": "shopify://shop_images/Tatara_Official_Webstore.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
-        "desktop_content_position": "middle-left",
+        "desktop_content_position": "middle-center",
         "show_text_box": false,
-        "desktop_content_alignment": "left",
+        "desktop_content_alignment": "center",
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
@@ -87,22 +75,11 @@
             "button_label": "Button label",
             "button_link": ""
           }
-        },
-        "row_UQENBV": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "row_mKyK6k",
-        "row_rPMkzc",
-        "row_UQENBV"
+        "row_rPMkzc"
       ],
       "settings": {
         "image_height": "medium",
