@@ -51,15 +51,22 @@
         "footer-0": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
+            "heading": "Accounts",
             "menu": "footer"
           }
         },
         "footer-1": {
           "type": "link_list",
           "settings": {
-            "heading": "Info",
-            "menu": "footer"
+            "heading": "Policies",
+            "menu": "footer-main"
+          }
+        },
+        "link_list_gratPW": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "quick-links"
           }
         },
         "footer-2": {
@@ -73,6 +80,7 @@
       "block_order": [
         "footer-0",
         "footer-1",
+        "link_list_gratPW",
         "footer-2"
       ],
       "settings": {
