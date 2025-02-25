@@ -149,7 +149,7 @@
         "settings": {
           "button_color": "#f29d13",
           "secondary_color": "#FFFFFF",
-          "ternary_color": "#6A6A6A",
+          "ternary_color": "#898989",
           "button_icon": "no_icon",
           "button_text": "need_help",
           "button_horizontal_position": "bottom_right",
