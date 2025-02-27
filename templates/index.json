@@ -15,14 +15,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Tatara Accessories Tougher Than the Rest",
+            "heading": "Tatara - Tougher Than the Rest",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Tatara delivers high-quality Japanese accessories designed for durability, efficiency, and precision.",
+            "text": "Tatara accessories make power tools tougher and more reliable. Built for durability and precision, they ensure every cut, drill, and grind outperforms the rest.",
             "text_style": "body"
           }
         },
@@ -64,8 +64,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/008-tool-box-1_a1732c6a-efe7-4d9f-9377-f3ce213f1e11.png",
-            "title": "<strong>Small Details. Big Impact</strong>",
-            "text": "<p>Tatara accessories are designed with precision to enhance your workflow and performance.</p>",
+            "title": "<strong>Engineered for Precision</strong>",
+            "text": "<p>Unmatched durability and accuracy, crafted to the highest Japanese standards for flawless performance.</p>",
             "link_label": "",
             "link": ""
           }
@@ -74,8 +74,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/004-durable_f5d13a66-1eef-47cf-a87e-bee0eb8e75f9.png",
-            "title": "<strong>Durability Meets Functionality</strong>",
-            "text": "<p>Engineered with premium materials, our accessories withstand daily wear and deliver long-lasting reliability.</p>",
+            "title": "<strong>Built to Boos</strong>t",
+            "text": "<p>Optimized to work seamlessly with your power tools for maximum efficiency.</p>",
             "link_label": "",
             "link": ""
           }
@@ -84,8 +84,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/007-wrench_5025034b-b950-4f96-942d-ea2a4effde7d.png",
-            "title": "<strong>Enhance Every Task</strong>",
-            "text": "<p>From sharpening to finishing touches, Tatara accessories provide the efficiency and ease you need.</p>",
+            "title": "<strong>Forged to Endure</strong>",
+            "text": "<p>Made with premium materials to withstand intense pressure, impact, and wear.</p>",
             "link_label": "",
             "link": ""
           }
@@ -122,14 +122,14 @@
         "heading_cGDqRK": {
           "type": "heading",
           "settings": {
-            "heading": "Accessories That Work as Hard as You Do",
+            "heading": "Arm Your Tools with the Best-in-Class Accessories!",
             "heading_size": "h1"
           }
         },
         "text_DXmnjC": {
           "type": "text",
           "settings": {
-            "text": "<p>Designed for professionals and enthusiasts alike, Tatara accessories provide the perfect balance of quality and performance.</p>",
+            "text": "<p>Tatara accessories are built for those who expect more from their tools. More endurance. More efficiency.</p><p>Every attachment and component is rigorously tested under extreme conditions to ensure consistency and control. Equip your tools with the best and take on any task! </p>",
             "text_style": "body"
           }
         },
@@ -165,7 +165,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Explore Tatara Accessories",
+        "title": "Featured Tatara Products",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -196,14 +196,14 @@
         "heading_nVKNdb": {
           "type": "heading",
           "settings": {
-            "heading": "Essential Additions for Every Project",
+            "heading": "Unlock Your Tools' Full Potential",
             "heading_size": "h1"
           }
         },
         "text_KWkwBw": {
           "type": "text",
           "settings": {
-            "text": "<p>Complete your setup with high-performance accessories crafted to elevate precision and efficiency.</p>",
+            "text": "<p>These are the accessories your tools Have been missing. Complete your setup with high-performance accessories crafted to boost power and performance.</p>",
             "text_style": "body"
           }
         },
@@ -239,9 +239,9 @@
     "featured_collection_CEXW3Y": {
       "type": "featured-collection",
       "settings": {
-        "title": "Essential Additions for Every Project",
+        "title": "Cutting & Abrasive Accessories",
         "heading_size": "h2",
-        "description": "<p>Complete your setup with high-performance accessories crafted to elevate precision and efficiency.</p>",
+        "description": "<p>Tackle tough materials with Tatara's cutting and grinding accessories. From slicing through metal to smoothing rough surfaces, these attachments ensure top-notch performance every time.</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "all",
@@ -321,9 +321,9 @@
     "featured_collection_yPPRkU": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "Drilling & Surface Finishing Accessories",
         "heading_size": "h2",
-        "description": "",
+        "description": "<p>Achieve precise drilling and flawless finishes with Tatara’s Drilling & Surface Finishing Accessories. Get reliable drill bits, sanding sheets, and abrasive meshes for every task.</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "all",
