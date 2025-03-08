@@ -448,8 +448,8 @@
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "section",
-        "color_scheme": "scheme-1",
-        "container_color_scheme": "scheme-1",
+        "color_scheme": "scheme-9c91db0c-f8be-418c-a765-f66f285afe06",
+        "container_color_scheme": "scheme-b246e394-bd46-4588-8921-74370a398356",
         "open_first_collapsible_row": true,
         "image_ratio": "large",
         "desktop_layout": "image_second",
@@ -471,6 +471,7 @@
       "block_order": [
         "heading_hRh7My"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
