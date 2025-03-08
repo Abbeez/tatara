@@ -82,11 +82,11 @@
       <!-- Payment Methods -->
 
       <div class="payment-method">
-        <h6>Lotus® Payment Methods</h6>
-        <p>Your convenience and security are our priority</p>
+        <h6>Payment Gateway</h6>
+        <p>Zekoki Available Payment Methods</p>
         <ul>
-          {% for item in shop.metaobjects.lotus_payment_methods.values %}
-            <li><img src="{{ item.image | img_url: '180x180' }}" alt="{{ item.title }}"></li>
+          {% for item in shop.metaobjects.payment_methods.values %}
+            <li><img src="{{ item.photo | img_url: '180x180' }}" alt="{{ item.title }}"></li>
           {% endfor %}
         </ul>
       </div>
