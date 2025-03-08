@@ -3616,5 +3616,10 @@ details-disclosure > details {
     border: none !important;
     outline: none !important;
 }
+
+.product-form__submit {
+    background: #222;
+    color: #fff;
+}
 /* =========== Product Page ========*/
 /* ================================= END CUSTOM CSS =========================== */
