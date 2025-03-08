@@ -3605,41 +3605,16 @@ details-disclosure > details {
 
 
 /* ================================= CUSTOM CSS =============================== */
-/* 
-div#price-template--19133938303194__main {
-    display: flex;
-    justify-content: center;
-}
 
-variant-selects#variant-selects-template--19133938303194__main {
-    display: flex;
-    justify-content: center;
+/* ======== Product Page =======*/
+.thumbnail-list__item {
+    border: 1px solid #F29D13;
 }
-
-.product-form__input {
-    max-width: 100% !important;
+.quick-add__submit {
+    background: #B5312C;
+    color: #fff;
+    border: none !important;
+    outline: none !important;
 }
-
-
-product-form.product-form {
-    display: flex;
-    justify-content: center;
-}
-
-.price-per-item__container {
-    display: flex;
-    justify-content: center;
-}
-section#ProductInfo-template--19133938303194__main {
-    text-align: center;
-}
-
-form#product-form-template--19133938303194__main {
-    width: 80%;
-}
-
-share-button#Share-template--19133938303194__main {
-    display: flex;
-    justify-content: center;
-} */
+/* =========== Product Page ========*/
 /* ================================= END CUSTOM CSS =========================== */
