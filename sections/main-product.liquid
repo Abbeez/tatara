@@ -78,6 +78,21 @@
       <div class="grid__item product__media-wrapper">
         {% render 'product-media-gallery', variant_images: variant_images %}
       </div>
+
+      <!-- Payment Methods -->
+
+      <div class="payment-method">
+        <h6>Lotus® Payment Methods</h6>
+        <p>Your convenience and security are our priority</p>
+        <ul>
+          {% for item in shop.metaobjects.lotus_payment_methods.values %}
+            <li><img src="{{ item.image | img_url: '180x180' }}" alt="{{ item.title }}"></li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <!-- End Payment -->
+
       <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         <section
           id="ProductInfo-{{ section.id }}"
