@@ -77,32 +77,32 @@
     <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
       <div class="grid__item product__media-wrapper">
         {% render 'product-media-gallery', variant_images: variant_images %}
-      </div>
 
-      <!-- Payment Methods -->
-      {% style %}
-        .payment-method {text-align:center;margin-top:30px;}
-        .payment-method ul {
-            margin-top: 15px;
-            margin-bottom: 15px;
-            display: flex;
-            gap: 5px;
-            align-items: center;
-            justify-content: center;
-        }
+        <!-- Payment Methods -->
+        {% style %}
+          .payment-method {text-align:center;margin-top:30px;}
+          .payment-method ul {
+              margin-top: 15px;
+              margin-bottom: 15px;
+              display: flex;
+              gap: 5px;
+              align-items: center;
+              justify-content: center;
+          }
 
-        .payment-method ul li{
-          list-style-type:none;
-        }
-      {% endstyle %}
-      <div class="payment-method">
-        <h6>Payment Gateway</h6>
-        <p>Zekoki Available Payment Methods</p>
-        <ul>
-          {% for item in shop.metaobjects.payment_methods.values %}
-            <li><img src="{{ item.photo | img_url: '180x180' }}" alt="{{ item.title }}"></li>
-          {% endfor %}
-        </ul>
+          .payment-method ul li{
+            list-style-type:none;
+          }
+        {% endstyle %}
+        <div class="payment-method">
+          <h6>Payment Gateway</h6>
+          <p>Zekoki Available Payment Methods</p>
+          <ul>
+            {% for item in shop.metaobjects.payment_methods.values %}
+              <li><img src="{{ item.photo | img_url: '180x180' }}" alt="{{ item.title }}"></li>
+            {% endfor %}
+          </ul>
+        </div>
       </div>
 
       <!-- End Payment -->
