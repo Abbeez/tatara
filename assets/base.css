@@ -3626,6 +3626,10 @@ product-form.product-form {
     justify-content: center;
 }
 
+.price-per-item__container {
+    display: flex;
+    justify-content: center;
+}
 section#ProductInfo-template--19133938303194__main {
     text-align: center;
 }
