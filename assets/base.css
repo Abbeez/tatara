@@ -3617,7 +3617,7 @@ variant-selects#variant-selects-template--19133938303194__main {
 }
 
 .product-form__input {
-    max-width: 100%;
+    max-width: 100% !important;
 }
 
 
