@@ -3634,6 +3634,10 @@ section#ProductInfo-template--19133938303194__main {
     text-align: center;
 }
 
+form#product-form-template--19133938303194__main {
+    width: 80%;
+}
+
 share-button#Share-template--19133938303194__main {
     display: flex;
     justify-content: center;
