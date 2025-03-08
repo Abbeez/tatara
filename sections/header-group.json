@@ -20,10 +20,18 @@
             "text": "Japanese-Grade Accessories for Your Power Tools",
             "link": ""
           }
+        },
+        "announcement_KNrwdL": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "announcement_d9pjpt"
+        "announcement_d9pjpt",
+        "announcement_KNrwdL"
       ],
       "settings": {
         "color_scheme": "scheme-5",
@@ -43,7 +51,7 @@
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-1",
         "menu_color_scheme": "scheme-1",
         "enable_country_selector": true,
         "enable_language_selector": true,
