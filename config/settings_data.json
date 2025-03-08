@@ -249,9 +249,20 @@
           "background": "#ffffff",
           "background_gradient": "",
           "text": "#3e3e3e",
-          "button": "#da291c",
+          "button": "#b5312c",
           "button_label": "#ffffff",
           "secondary_button_label": "#121212",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-62fcb6fe-4a72-48d9-a15f-b78d4e8b70d3": {
+        "settings": {
+          "background": "#b5312c",
+          "background_gradient": "",
+          "text": "#3e3e3e",
+          "button": "#f29d13",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#f29d13",
           "shadow": "#121212"
         }
       }
