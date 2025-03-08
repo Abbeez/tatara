@@ -101,9 +101,9 @@
     "drawer_shadow_horizontal_offset": 0,
     "drawer_shadow_vertical_offset": 4,
     "drawer_shadow_blur": 5,
-    "badge_position": "bottom left",
+    "badge_position": "top right",
     "badge_corner_radius": 40,
-    "sale_badge_color_scheme": "scheme-5",
+    "sale_badge_color_scheme": "scheme-62fcb6fe-4a72-48d9-a15f-b78d4e8b70d3",
     "sold_out_badge_color_scheme": "scheme-3",
     "brand_headline": "<strong>Kamusta, Ta-Kada</strong>",
     "brand_description": "<p>Access your power</p>",
@@ -251,7 +251,7 @@
           "text": "#3e3e3e",
           "button": "#b5312c",
           "button_label": "#ffffff",
-          "secondary_button_label": "#121212",
+          "secondary_button_label": "#b5312c",
           "shadow": "#121212"
         }
       },
