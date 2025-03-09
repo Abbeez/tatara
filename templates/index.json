@@ -16,17 +16,17 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Tatara_Power_of_accessories_1.png",
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
+            "heading": "Tatara - Tougher Than the Rest",
+            "heading_size": "h0",
+            "subheading": "Tatara accessories make power tools tougher and more reliable. Built for durability and precision, they ensure every cut, drill, and grind outperforms the rest.",
+            "button_label": "Explore Our Collection",
+            "link": "shopify://collections/all",
             "button_style_secondary": false,
             "box_align": "middle-left",
-            "show_text_box": true,
+            "show_text_box": false,
             "text_alignment": "left",
             "image_overlay_opacity": 0,
-            "color_scheme": "",
+            "color_scheme": "scheme-6f20de88-22d3-4092-9e6f-53f1befe7723",
             "text_alignment_mobile": "center"
           }
         },
@@ -58,7 +58,7 @@
         "slider_visual": "counter",
         "auto_rotate": false,
         "change_slides_speed": 5,
-        "image_behavior": "none",
+        "image_behavior": "ambient",
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
@@ -97,6 +97,7 @@
         "text",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Tatara_Power_of_accessories_1.png",
         "image_overlay_opacity": 0,
