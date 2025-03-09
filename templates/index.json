@@ -622,7 +622,7 @@
         "full_width": true,
         "show_view_all": false,
         "view_all_style": "solid",
-        "enable_desktop_slider": true,
+        "enable_desktop_slider": false,
         "color_scheme": "scheme-b246e394-bd46-4588-8921-74370a398356",
         "image_ratio": "adapt",
         "image_shape": "default",
