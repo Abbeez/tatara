@@ -49,9 +49,22 @@
             "show_gift_card_recipient": true
           }
         },
+        "text_Yg9cpm": {
+          "type": "text",
+          "settings": {
+            "text": "We offer nationwide shipping within the Philippines, with estimated delivery times of <strong>2-3 days for orders</strong> within the <strong>National Capital Region (NCR)</strong> and <strong>5-7 days for orders outside the NCR</strong>, subject to courier availability and any unforeseen circumstances.",
+            "text_style": "uppercase"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {}
+        },
+        "custom_liquid_WhVGhB": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<!-- Payment Methods -->\n        {% style %}\n          .payment-method ul {\n              margin-top: 15px;\n              margin-bottom: 15px;\npadding:0;\n              display: flex;\n              gap: 5px;\n\n          }\n\n          .payment-method ul li{\n            list-style-type:none;\n          }\n        {% endstyle %}\n        <div class=\"payment-method\">\n          <h3>Payment Methods</h3>\n          <ul>\n            {% for item in shop.metaobjects.payment_methods.values %}\n              <li><img src=\"{{ item.photo | img_url: '250x250' }}\" alt=\"{{ item.title }}\"></li>\n            {% endfor %}\n          </ul>\n        </div>\n              <!-- End Payment -->"
+          }
         },
         "share": {
           "type": "share",
@@ -59,10 +72,17 @@
             "share_label": "Share"
           }
         },
-        "custom_liquid_WhVGhB": {
-          "type": "custom_liquid",
+        "sku_n9LX3Y": {
+          "type": "sku",
           "settings": {
-            "custom_liquid": "<!-- Payment Methods -->\n        {% style %}\n          .payment-method ul {\n              margin-top: 15px;\n              margin-bottom: 15px;\npadding:0;\n              display: flex;\n              gap: 5px;\n\n          }\n\n          .payment-method ul li{\n            list-style-type:none;\n          }\n        {% endstyle %}\n        <div class=\"payment-method\">\n          <h3>Payment Methods</h3>\n          <ul>\n            {% for item in shop.metaobjects.payment_methods.values %}\n              <li><img src=\"{{ item.photo | img_url: '250x250' }}\" alt=\"{{ item.title }}\"></li>\n            {% endfor %}\n          </ul>\n        </div>\n              <!-- End Payment -->"
+            "text_style": "body"
+          }
+        },
+        "text_9Gzqz8": {
+          "type": "text",
+          "settings": {
+            "text": "Text block",
+            "text_style": "body"
           }
         }
       },
@@ -74,9 +94,12 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "text_Yg9cpm",
         "description",
+        "custom_liquid_WhVGhB",
         "share",
-        "custom_liquid_WhVGhB"
+        "sku_n9LX3Y",
+        "text_9Gzqz8"
       ],
       "settings": {
         "enable_sticky_info": true,
