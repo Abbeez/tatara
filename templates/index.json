@@ -378,6 +378,99 @@
         "padding_bottom": 80
       }
     },
+    "image_with_text_QdHXHV": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_UHgF4M": {
+          "type": "caption",
+          "settings": {
+            "caption": "Why Choose Tatara?",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "heading_6Vtzm8": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Built for Long-term Durability, and  Efficiency</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_xFBhQC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>When it comes to tools, quality isn’t just an option—it’s a necessity. Tatara products are made for those who demand the best. Our accessories are<strong> built for long-term durability, and designed for efficiency</strong>. No more dull blades, weak drill bits, or unreliable tools—just <strong>pure power and performance in every cut, every drill, and every chisel stroke</strong>.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_H6V4L8": {
+          "type": "button",
+          "settings": {
+            "button_label": "Discover the Collection 🔧",
+            "button_link": "shopify://collections/all",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_UHgF4M",
+        "heading_6Vtzm8",
+        "text_xFBhQC",
+        "button_H6V4L8"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Tatara_-_Collection.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-5a1384fa-81b6-4e02-a583-b6d030b3de97",
+        "color_scheme": "scheme-5a1384fa-81b6-4e02-a583-b6d030b3de97",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 80,
+        "padding_bottom": 0
+      }
+    },
+    "newsletter_bLTeRV": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_VjHJ8R": {
+          "type": "heading",
+          "settings": {
+            "heading": "Stay Connected & Get Exclusive Deals",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_eVrbbz": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>📩 <strong>Sign up for early access to new products and special discounts!</strong></p><p>Subscribe Now & Get 10% Off</p>"
+          }
+        },
+        "email_form_tPiHY9": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_VjHJ8R",
+        "paragraph_eVrbbz",
+        "email_form_tPiHY9"
+      ],
+      "custom_css": [
+        ".newsletter {margin-bottom: 5rem;}",
+        ".newsletter__wrapper {border: 1px solid var(--custom-primary);}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-f520fdb2-2f86-4380-9a44-51cd7d0a051a",
+        "full_width": true,
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
     "image_with_text_eBFTyT": {
       "type": "image-with-text",
       "blocks": {
@@ -418,6 +511,7 @@
         "button_zXQwbX",
         "caption_ftQ4Nx"
       ],
+      "disabled": true,
       "settings": {
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -526,174 +620,6 @@
         "margin_bottom": 100
       }
     },
-    "featured_collection_yPPRkU": {
-      "type": "featured-collection",
-      "disabled": true,
-      "custom_css": [
-        ".collection__title {text-align: center;}"
-      ],
-      "settings": {
-        "title": "Drilling & Surface Finishing Accessories",
-        "heading_size": "h1",
-        "description": "<p>Achieve precise drilling and flawless finishes with Tatara’s Drilling & Surface Finishing Accessories. Get reliable drill bits, sanding sheets, and abrasive meshes for every task.</p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "drill-bit",
-        "products_to_show": 9,
-        "columns_desktop": 6,
-        "full_width": true,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-b246e394-bd46-4588-8921-74370a398356",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "standard",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 80,
-        "padding_bottom": 80
-      }
-    },
-    "featured_collection_CEXW3Y": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Cutting & Abrasive Accessories",
-        "heading_size": "h2",
-        "description": "<p>Tackle tough materials with Tatara's cutting and grinding accessories. From slicing through metal to smoothing rough surfaces, these attachments ensure top-notch performance every time.</p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 5,
-        "columns_desktop": 5,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-b246e394-bd46-4588-8921-74370a398356",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "standard",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 80,
-        "padding_bottom": 80
-      }
-    },
-    "featured_product_GTyrb9": {
-      "type": "featured-product",
-      "blocks": {
-        "text_Lf4YKp": {
-          "type": "text",
-          "settings": {
-            "text": "Featured {{ section.settings.product.vendor }} Product",
-            "text_style": "uppercase"
-          }
-        },
-        "title_en7JE9": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "price_f8Jwzc": {
-          "type": "price",
-          "settings": {}
-        },
-        "variant_picker_GbjTjz": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
-        "quantity_selector_xLxgxX": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons_kKHQrg": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        },
-        "share_W3xp3r": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "text_Lf4YKp",
-        "title_en7JE9",
-        "price_f8Jwzc",
-        "variant_picker_GbjTjz",
-        "quantity_selector_xLxgxX",
-        "buy_buttons_kKHQrg",
-        "share_W3xp3r"
-      ],
-      "disabled": true,
-      "settings": {
-        "product": "tatara-laser-welded-diamond-blade",
-        "color_scheme": "scheme-b246e394-bd46-4588-8921-74370a398356",
-        "secondary_background": false,
-        "media_size": "small",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 68,
-        "padding_bottom": 68
-      }
-    },
-    "newsletter_bLTeRV": {
-      "type": "newsletter",
-      "blocks": {
-        "heading_VjHJ8R": {
-          "type": "heading",
-          "settings": {
-            "heading": "Stay Connected & Get Exclusive Deals",
-            "heading_size": "h1"
-          }
-        },
-        "paragraph_eVrbbz": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>📩 <strong>Sign up for early access to new products and special discounts!</strong></p><p>Subscribe Now & Get 10% Off</p>"
-          }
-        },
-        "email_form_tPiHY9": {
-          "type": "email_form",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "heading_VjHJ8R",
-        "paragraph_eVrbbz",
-        "email_form_tPiHY9"
-      ],
-      "custom_css": [
-        ".newsletter {margin-bottom: 5rem;}",
-        ".newsletter__wrapper {border: 1px solid var(--custom-primary);}"
-      ],
-      "settings": {
-        "color_scheme": "scheme-2",
-        "full_width": false,
-        "padding_top": 72,
-        "padding_bottom": 72
-      }
-    },
     "collapsible_content_xmK7XH": {
       "type": "collapsible-content",
       "blocks": {
@@ -798,12 +724,10 @@
     "rich_text_kgArK9",
     "image_with_text_PCFhm7",
     "featured_collection",
+    "image_with_text_QdHXHV",
+    "newsletter_bLTeRV",
     "image_with_text_eBFTyT",
     "custom_collection_grid_6DCqgj",
-    "featured_collection_yPPRkU",
-    "featured_collection_CEXW3Y",
-    "featured_product_GTyrb9",
-    "newsletter_bLTeRV",
     "collapsible_content_xmK7XH",
     "rich_text_cg4E6h"
   ]
