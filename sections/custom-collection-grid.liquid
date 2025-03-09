@@ -1,6 +1,157 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{% style %}
+    /* ======== Product Page ======= */
+  .custom-collection-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px; /* Adjust spacing between items */
+    max-width: 1200px;
+    margin: 0 auto;
   }
+
+  .collection-container {
+    flex: 1 1 calc(20% - 16px); /* 5 columns */
+    max-width: calc(20% - 16px);
+    text-align: center;
+  }
+
+  .collection-card {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .collection-card:hover {
+    transform: scale(1.05);
+  }
+
+  /* Ensure only 2 rows max */
+  .custom-collection-list > .collection-container:nth-child(n+11) {
+    display: none;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 1024px) {
+    .collection-container {
+      flex: 1 1 calc(33.33% - 16px); /* 3 columns on tablet */
+      max-width: calc(33.33% - 16px);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .collection-container {
+      flex: 1 1 calc(50% - 16px); /* 2 columns on mobile */
+      max-width: calc(50% - 16px);
+    }
+  }
+
+  @media (max-width: 480px) {
+    .collection-container {
+      flex: 1 1 100%; /* 1 column on smaller screens */
+      max-width: 100%;
+    }
+  }
+{% endstyle %}
+
+<section
+  class="custom-collection__section scroll-trigger animate--slide-in"
+  style=""
+>
+  <div
+    class="custom-collection-list"
+    style="
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    "
+  >
+    {% for block in section.blocks %}
+      {% assign collection_handle = block.settings.boxed_collection %}
+      {% if collection_handle != blank %}
+        {% assign collection = collections[collection_handle] %}
+        <div class="collection-container">
+          <a href="{{ collection.url }}" alt="{{ collection.title }}">
+            <div class="collection-card">
+              <h3>
+                <a href="">{{ collection.title | truncate: 15 }}</a>
+              </h3>
+            </div>
+          </a>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Custom Collection List",
+  "settings": [
+  {
+    "type": "header",
+    "content": "Section Spacing"
+  },
+  {
+    "type": "range",
+    "id": "padding_top",
+    "label": "Padding Top",
+    "min": 0,
+    "max": 100,
+    "step": 5,
+    "default": 20
+  },
+  {
+    "type": "range",
+    "id": "padding_bottom",
+    "label": "Padding Bottom",
+    "min": 0,
+    "max": 100,
+    "step": 5,
+    "default": 20
+  },
+  {
+    "type": "range",
+    "id": "margin_top",
+    "label": "Margin Top",
+    "min": -200,
+    "max": 100,
+    "step": 5,
+    "default": 20
+  },
+  {
+    "type": "range",
+    "id": "margin_bottom",
+    "label": "Margin Bottom",
+    "min": -200,
+    "max": 100,
+    "step": 5,
+    "default": 20
+  }
+  ],
+    "blocks": [
+    {
+      "type": "Collections",
+      "name": "Collection List",
+      "limit": 12,
+      "settings": [
+        {
+          "type": "collection",
+          "id": "boxed_collection",
+          "label": "Choose a collection"
+        },
+        {
+          "type": "text",
+          "id": "boxed_collection__heading",
+          "label": "Heading",
+          "default": "Collection Title"
+        },
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Collection List"
+    }
+  ]
+}
 {% endschema %}
