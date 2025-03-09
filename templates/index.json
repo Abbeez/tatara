@@ -378,6 +378,37 @@
         "padding_bottom": 80
       }
     },
+    "featured_collection_yPPRkU": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".collection__title {text-align: center;}"
+      ],
+      "settings": {
+        "title": "Drilling & Surface Finishing Accessories",
+        "heading_size": "h1",
+        "description": "<p>Achieve precise drilling and flawless finishes with Tatara’s Drilling & Surface Finishing Accessories. Get reliable drill bits, sanding sheets, and abrasive meshes for every task.</p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "drill-bit",
+        "products_to_show": 9,
+        "columns_desktop": 6,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-b246e394-bd46-4588-8921-74370a398356",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
     "newsletter_bLTeRV": {
       "type": "newsletter",
       "blocks": {
@@ -604,37 +635,6 @@
         "padding_top": 64,
         "padding_bottom": 52
       }
-    },
-    "featured_collection_yPPRkU": {
-      "type": "featured-collection",
-      "custom_css": [
-        ".collection__title {text-align: center;}"
-      ],
-      "settings": {
-        "title": "Drilling & Surface Finishing Accessories",
-        "heading_size": "h1",
-        "description": "<p>Achieve precise drilling and flawless finishes with Tatara’s Drilling & Surface Finishing Accessories. Get reliable drill bits, sanding sheets, and abrasive meshes for every task.</p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "drill-bit",
-        "products_to_show": 9,
-        "columns_desktop": 6,
-        "full_width": true,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-b246e394-bd46-4588-8921-74370a398356",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "standard",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 80,
-        "padding_bottom": 80
-      }
     }
   },
   "order": [
@@ -645,11 +645,11 @@
     "image_with_text_PCFhm7",
     "featured_collection",
     "image_with_text_eBFTyT",
-    "newsletter_bLTeRV",
+    "featured_collection_yPPRkU",
     "featured_collection_CEXW3Y",
     "featured_product_GTyrb9",
     "collapsible_content_xmK7XH",
     "rich_text_cg4E6h",
-    "featured_collection_yPPRkU"
+    "newsletter_bLTeRV"
   ]
 }
