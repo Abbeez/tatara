@@ -347,35 +347,60 @@
         "padding_bottom": 0
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
-      "custom_css": [
-        ".collection__title {text-align: center;}"
+    "brand_comparison_3PQbdt": {
+      "type": "brand-comparison",
+      "blocks": {
+        "feature_dbNr7i": {
+          "type": "feature",
+          "settings": {
+            "icon": "🏆",
+            "feature": "Japan Quality Made",
+            "tatara_value": "Yes",
+            "competitor_value": "No"
+          }
+        },
+        "feature_yh3qCb": {
+          "type": "feature",
+          "settings": {
+            "icon": "🛠",
+            "feature": "Built for Longevity",
+            "tatara_value": "Yes",
+            "competitor_value": "No"
+          }
+        },
+        "feature_4LrDnq": {
+          "type": "feature",
+          "settings": {
+            "icon": "⚡",
+            "feature": "High-Speed Performance",
+            "tatara_value": "Yes",
+            "competitor_value": "No"
+          }
+        },
+        "feature_frjrYj": {
+          "type": "feature",
+          "settings": {
+            "icon": "📦",
+            "feature": "Extensive Product Details",
+            "tatara_value": "Yes",
+            "competitor_value": "No"
+          }
+        }
+      },
+      "block_order": [
+        "feature_dbNr7i",
+        "feature_yh3qCb",
+        "feature_4LrDnq",
+        "feature_frjrYj"
       ],
       "settings": {
-        "title": "Our Best-Selling Japan-Quality Accessories",
-        "heading_size": "h1",
-        "description": "<p>The right accessories enhance your work, making every cut sharper and every drill smoother. Tatara brings you expertly crafted products designed for both <strong>professionals and home DIYers</strong>, ensuring <strong>effortless precision and lasting durability</strong>.</p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 5,
-        "columns_desktop": 5,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "link",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-b246e394-bd46-4588-8921-74370a398356",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "standard",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 80,
-        "padding_bottom": 80
+        "heading": "Tatara vs. The Competition: What Sets Us Apart?",
+        "feature_column": "Feature",
+        "tatara_column": "Tatara Accessories",
+        "competitor_column": "Other Brands",
+        "note": "Tatara isn’t just another brand—it’s a guarantee of power, precision, and durability.",
+        "cta_link": "shopify://collections/all",
+        "cta_text": "Shop Now & Upgrade Your Toolkit"
       }
     },
     "image_with_text_QdHXHV": {
@@ -713,60 +738,35 @@
         "padding_bottom": 52
       }
     },
-    "brand_comparison_3PQbdt": {
-      "type": "brand-comparison",
-      "blocks": {
-        "feature_dbNr7i": {
-          "type": "feature",
-          "settings": {
-            "icon": "⚡",
-            "feature": "High-Speed Performance",
-            "tatara_value": "Yes",
-            "competitor_value": "No"
-          }
-        },
-        "feature_yh3qCb": {
-          "type": "feature",
-          "settings": {
-            "icon": "⚡",
-            "feature": "High-Speed Performance",
-            "tatara_value": "Yes",
-            "competitor_value": "No"
-          }
-        },
-        "feature_4LrDnq": {
-          "type": "feature",
-          "settings": {
-            "icon": "⚡",
-            "feature": "High-Speed Performance",
-            "tatara_value": "Yes",
-            "competitor_value": "No"
-          }
-        },
-        "feature_frjrYj": {
-          "type": "feature",
-          "settings": {
-            "icon": "⚡",
-            "feature": "High-Speed Performance",
-            "tatara_value": "Yes",
-            "competitor_value": "No"
-          }
-        }
-      },
-      "block_order": [
-        "feature_dbNr7i",
-        "feature_yh3qCb",
-        "feature_4LrDnq",
-        "feature_frjrYj"
+    "featured_collection": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".collection__title {text-align: center;}"
       ],
       "settings": {
-        "heading": "Tatara vs. The Competition: What Sets Us Apart?",
-        "feature_column": "Feature",
-        "tatara_column": "Tatara Accessories",
-        "competitor_column": "Other Brands",
-        "note": "Tatara isn’t just another brand—it’s a guarantee of power, precision, and durability.",
-        "cta_link": "",
-        "cta_text": "Shop Now & Upgrade Your Toolkit"
+        "title": "Our Best-Selling Japan-Quality Accessories",
+        "heading_size": "h1",
+        "description": "<p>The right accessories enhance your work, making every cut sharper and every drill smoother. Tatara brings you expertly crafted products designed for both <strong>professionals and home DIYers</strong>, ensuring <strong>effortless precision and lasting durability</strong>.</p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 5,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-b246e394-bd46-4588-8921-74370a398356",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     }
   },
@@ -778,12 +778,12 @@
     "rich_text_kgArK9",
     "image_with_text_PCFhm7",
     "brand_comparison_3PQbdt",
-    "featured_collection",
     "image_with_text_QdHXHV",
     "image_with_text_eBFTyT",
     "custom_collection_grid_6DCqgj",
     "collapsible_content_xmK7XH",
     "newsletter_bLTeRV",
-    "rich_text_cg4E6h"
+    "rich_text_cg4E6h",
+    "featured_collection"
   ]
 }
