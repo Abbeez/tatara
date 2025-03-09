@@ -329,30 +329,39 @@
         "heading_nVKNdb": {
           "type": "heading",
           "settings": {
-            "heading": "Unlock Your Tools' Full Potential",
+            "heading": "Quality That Lasts, Performance You Can Trust",
             "heading_size": "h1"
           }
         },
         "text_KWkwBw": {
           "type": "text",
           "settings": {
-            "text": "<p>These are the accessories your tools Have been missing. Complete your setup with high-performance accessories crafted to boost power and performance.</p>",
+            "text": "<p>Tatara accessories go through <strong>rigorous testing</strong> to ensure <strong>long-lasting durability and precision performance</strong>. Made from <strong>premium materials</strong>, our products are designed to <strong>help you work efficiently, save time, and achieve the best results</strong>.</p>",
             "text_style": "body"
           }
         },
         "button_zXQwbX": {
           "type": "button",
           "settings": {
-            "button_label": "Tatara Essentials",
-            "button_link": "#",
+            "button_label": "Get Tatara today. 👉",
+            "button_link": "shopify://collections/all",
             "button_style_secondary": false
+          }
+        },
+        "caption_ftQ4Nx": {
+          "type": "caption",
+          "settings": {
+            "caption": "When you choose Tatara, you’re not just getting accessories—you’re investing in reliability, precision, and performance that stand the test of time.",
+            "text_style": "subtitle",
+            "text_size": "medium"
           }
         }
       },
       "block_order": [
         "heading_nVKNdb",
         "text_KWkwBw",
-        "button_zXQwbX"
+        "button_zXQwbX",
+        "caption_ftQ4Nx"
       ],
       "settings": {
         "height": "adapt",
@@ -367,6 +376,39 @@
         "mobile_content_alignment": "left",
         "padding_top": 80,
         "padding_bottom": 80
+      }
+    },
+    "newsletter_bLTeRV": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_VjHJ8R": {
+          "type": "heading",
+          "settings": {
+            "heading": "Stay Connected & Get Exclusive Deals",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_eVrbbz": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>📩 <strong>Sign up for early access to new products and special discounts!</strong></p><p>Subscribe Now & Get 10% Off</p>"
+          }
+        },
+        "email_form_tPiHY9": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_VjHJ8R",
+        "paragraph_eVrbbz",
+        "email_form_tPiHY9"
+      ],
+      "settings": {
+        "color_scheme": "scheme-b246e394-bd46-4588-8921-74370a398356",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 68
       }
     },
     "featured_collection_CEXW3Y": {
@@ -637,6 +679,7 @@
     "image_with_text_PCFhm7",
     "featured_collection",
     "image_with_text_eBFTyT",
+    "newsletter_bLTeRV",
     "featured_collection_CEXW3Y",
     "featured_product_GTyrb9",
     "featured_collection_yPPRkU",
