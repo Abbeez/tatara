@@ -226,11 +226,11 @@
       "settings": {
         "image": "shopify://shop_images/About_Tatara_ce2a828c-5b15-41fd-bf67-af79897444df.png",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
+        "content_layout": "overlap",
         "section_color_scheme": "scheme-b246e394-bd46-4588-8921-74370a398356",
         "color_scheme": "scheme-5a1384fa-81b6-4e02-a583-b6d030b3de97",
         "image_behavior": "none",
