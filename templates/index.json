@@ -712,6 +712,62 @@
         "padding_top": 64,
         "padding_bottom": 52
       }
+    },
+    "brand_comparison_3PQbdt": {
+      "type": "brand-comparison",
+      "blocks": {
+        "feature_dbNr7i": {
+          "type": "feature",
+          "settings": {
+            "icon": "⚡",
+            "feature": "High-Speed Performance",
+            "tatara_value": "Yes",
+            "competitor_value": "No"
+          }
+        },
+        "feature_yh3qCb": {
+          "type": "feature",
+          "settings": {
+            "icon": "⚡",
+            "feature": "High-Speed Performance",
+            "tatara_value": "Yes",
+            "competitor_value": "No"
+          }
+        },
+        "feature_4LrDnq": {
+          "type": "feature",
+          "settings": {
+            "icon": "⚡",
+            "feature": "High-Speed Performance",
+            "tatara_value": "Yes",
+            "competitor_value": "No"
+          }
+        },
+        "feature_frjrYj": {
+          "type": "feature",
+          "settings": {
+            "icon": "⚡",
+            "feature": "High-Speed Performance",
+            "tatara_value": "Yes",
+            "competitor_value": "No"
+          }
+        }
+      },
+      "block_order": [
+        "feature_dbNr7i",
+        "feature_yh3qCb",
+        "feature_4LrDnq",
+        "feature_frjrYj"
+      ],
+      "settings": {
+        "heading": "Tatara vs. The Competition: What Sets Us Apart?",
+        "feature_column": "Feature",
+        "tatara_column": "Tatara Accessories",
+        "competitor_column": "Other Brands",
+        "note": "Tatara isn’t just another brand—it’s a guarantee of power, precision, and durability.",
+        "cta_link": "",
+        "cta_text": "Shop Now & Upgrade Your Toolkit"
+      }
     }
   },
   "order": [
@@ -721,6 +777,7 @@
     "image_with_text_JqJRnX",
     "rich_text_kgArK9",
     "image_with_text_PCFhm7",
+    "brand_comparison_3PQbdt",
     "featured_collection",
     "image_with_text_QdHXHV",
     "image_with_text_eBFTyT",
