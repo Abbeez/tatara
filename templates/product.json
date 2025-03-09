@@ -87,7 +87,7 @@
         "custom_liquid_WhVGhB": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<!-- Payment Methods -->\n{% style %}\n.payment-method ul {\n    margin-top: 15px;\n    margin-bottom: 15px;\n    padding:0;\n    display: flex;\n    gap: 5px;\n}\n\n.payment-method ul li{\n  list-style-type:none;\n}\n\n.payment-method ul li img{\n  width:60px;\n}\n{% endstyle %}\n<div class=\"payment-method\">\n<h3>Payment Methods</h3>\n<ul>\n  {% for item in shop.metaobjects.payment_methods.values %}\n    <li><img src=\"{{ item.photo | img_url: '300x300' }}\" alt=\"{{ item.title }}\"></li>\n  {% endfor %}\n</ul>\n</div>\n    <!-- End Payment -->"
+            "custom_liquid": "<!-- Payment Methods -->\n{% style %}\n.payment-method ul {\n    margin-top: 15px;\n    margin-bottom: 15px;\n    padding:0;\n    display: flex;\n    gap: 5px;\n    flex-direction: row;\n    flex-wrap: wrap;\n}\n\n.payment-method ul li{\n  list-style-type:none;\n}\n\n.payment-method ul li img{\n  width:100%;\n}\n{% endstyle %}\n<div class=\"payment-method\">\n<h3>Payment Methods</h3>\n<ul>\n  {% for item in shop.metaobjects.payment_methods.values %}\n    <li><img src=\"{{ item.photo | img_url: '300x300' }}\" alt=\"{{ item.title }}\"></li>\n  {% endfor %}\n</ul>\n</div>\n    <!-- End Payment -->"
           }
         },
         "share": {
