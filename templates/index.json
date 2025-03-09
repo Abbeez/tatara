@@ -223,6 +223,7 @@
         "text_DXmnjC",
         "button_Xp3WYX"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/About_Tatara_ce2a828c-5b15-41fd-bf67-af79897444df.png",
         "height": "adapt",
@@ -237,6 +238,57 @@
         "mobile_content_alignment": "left",
         "padding_top": 80,
         "padding_bottom": 80
+      }
+    },
+    "rich_text_kgArK9": {
+      "type": "rich-text",
+      "blocks": {
+        "caption_z8MhUx": {
+          "type": "caption",
+          "settings": {
+            "caption": "About Us",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "heading_PibtHF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Japan-Quality Craftsmanship in Every Piece",
+            "heading_size": "h1"
+          }
+        },
+        "text_CKTeRC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tatara is inspired by the <strong>traditional Japanese furnace</strong> known for producing some of the finest metalwork in history. That same dedication to <strong>strength and precision</strong> is reflected in every <strong>chisel, drill bit, and cutting accessory we create</strong>. Whether you're shaping wood, working with metal, or cutting through tough materials, Tatara gives you the confidence to get the job done right—every time.</p>"
+          }
+        },
+        "button_aJThbc": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More About Tatara",
+            "button_link": "shopify://pages/about-us",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_z8MhUx",
+        "heading_PibtHF",
+        "text_CKTeRC",
+        "button_aJThbc"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-5a1384fa-81b6-4e02-a583-b6d030b3de97",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "image_with_text_PCFhm7": {
@@ -648,6 +700,7 @@
     "image_banner",
     "multicolumn_EM3Ejm",
     "image_with_text_JqJRnX",
+    "rich_text_kgArK9",
     "image_with_text_PCFhm7",
     "featured_collection",
     "image_with_text_eBFTyT",
