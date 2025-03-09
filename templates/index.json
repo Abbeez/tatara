@@ -382,6 +382,7 @@
     },
     "featured_collection_yPPRkU": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
         ".collection__title {text-align: center;}"
       ],
