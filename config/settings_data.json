@@ -171,7 +171,7 @@
         "settings": {
           "background": "#ffffff",
           "background_gradient": "",
-          "text": "#3e3e3e",
+          "text": "#404040",
           "button": "#121212",
           "button_label": "#ffffff",
           "secondary_button_label": "#121212",
@@ -182,10 +182,10 @@
         "settings": {
           "background": "#f3f3f3",
           "background_gradient": "",
-          "text": "#121212",
-          "button": "#121212",
+          "text": "#404040",
+          "button": "#404040",
           "button_label": "#f3f3f3",
-          "secondary_button_label": "#121212",
+          "secondary_button_label": "#404040",
           "shadow": "#121212"
         }
       },
@@ -237,22 +237,22 @@
         "settings": {
           "background": "#ffffff",
           "background_gradient": "",
-          "text": "#3e3e3e",
+          "text": "#404040",
           "button": "#f29d13",
           "button_label": "#ffffff",
           "secondary_button_label": "#f29d13",
-          "shadow": "#121212"
+          "shadow": "#404040"
         }
       },
       "scheme-5a1384fa-81b6-4e02-a583-b6d030b3de97": {
         "settings": {
           "background": "#ffffff",
           "background_gradient": "",
-          "text": "#3e3e3e",
+          "text": "#404040",
           "button": "#b5312c",
           "button_label": "#ffffff",
           "secondary_button_label": "#b5312c",
-          "shadow": "#121212"
+          "shadow": "#404040"
         }
       },
       "scheme-62fcb6fe-4a72-48d9-a15f-b78d4e8b70d3": {
@@ -281,11 +281,11 @@
         "settings": {
           "background": "#ffffff",
           "background_gradient": "linear-gradient(270deg, rgba(240, 110, 105, 0), rgba(249, 208, 163, 0) 100%)",
-          "text": "#121212",
+          "text": "#404040",
           "button": "#ffffff",
           "button_label": "#ffffff",
-          "secondary_button_label": "#121212",
-          "shadow": "#121212"
+          "secondary_button_label": "#404040",
+          "shadow": "#404040"
         }
       },
       "scheme-1b2b349e-8ac4-416c-9e9c-f70ef47ddf89": {
