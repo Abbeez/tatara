@@ -564,6 +564,15 @@
         "padding_bottom": 68
       }
     },
+    "custom_collection_grid_6DCqgj": {
+      "type": "custom-collection-grid",
+      "settings": {
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "margin_top": 20,
+        "margin_bottom": 20
+      }
+    },
     "newsletter_bLTeRV": {
       "type": "newsletter",
       "blocks": {
@@ -708,6 +717,7 @@
     "featured_collection_yPPRkU",
     "featured_collection_CEXW3Y",
     "featured_product_GTyrb9",
+    "custom_collection_grid_6DCqgj",
     "newsletter_bLTeRV",
     "collapsible_content_xmK7XH",
     "rich_text_cg4E6h"
