@@ -407,7 +407,7 @@
           "type": "button",
           "settings": {
             "button_label": "Discover the Collection 🔧",
-            "button_link": "shopify://collections/all",
+            "button_link": "#customCollection",
             "button_style_secondary": false
           }
         }
