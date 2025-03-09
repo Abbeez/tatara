@@ -521,71 +521,61 @@
         "collections_Wc8Xt7": {
           "type": "Collections",
           "settings": {
-            "boxed_collection": "brush",
-            "boxed_collection__heading": "Collection Title"
+            "boxed_collection": "brush"
           }
         },
         "collections_8LKPAw": {
           "type": "Collections",
           "settings": {
-            "boxed_collection": "blades",
-            "boxed_collection__heading": "Collection Title"
+            "boxed_collection": "blades"
           }
         },
         "collections_ALrAKj": {
           "type": "Collections",
           "settings": {
-            "boxed_collection": "chisel",
-            "boxed_collection__heading": "Collection Title"
+            "boxed_collection": "chisel"
           }
         },
         "collections_pf6dxH": {
           "type": "Collections",
           "settings": {
-            "boxed_collection": "cutter",
-            "boxed_collection__heading": "Collection Title"
+            "boxed_collection": "cutter"
           }
         },
         "collections_aen3yL": {
           "type": "Collections",
           "settings": {
-            "boxed_collection": "disc",
-            "boxed_collection__heading": "Collection Title"
+            "boxed_collection": "disc"
           }
         },
         "collections_7kXryJ": {
           "type": "Collections",
           "settings": {
-            "boxed_collection": "drill-bit",
-            "boxed_collection__heading": "Collection Title"
+            "boxed_collection": "drill-bit"
           }
         },
         "collections_hRLqmD": {
           "type": "Collections",
           "settings": {
-            "boxed_collection": "router",
-            "boxed_collection__heading": "Collection Title"
+            "boxed_collection": "router"
           }
         },
         "collections_7b8L4C": {
           "type": "Collections",
           "settings": {
-            "boxed_collection": "sanding",
-            "boxed_collection__heading": "Collection Title"
+            "boxed_collection": "sanding"
           }
         },
         "collections_7zP6Hd": {
           "type": "Collections",
           "settings": {
-            "boxed_collection": "sds",
-            "boxed_collection__heading": "Collection Title"
+            "boxed_collection": "sds"
           }
         },
         "collections_fhrtYe": {
           "type": "Collections",
           "settings": {
-            "boxed_collection": "blades",
-            "boxed_collection__heading": "Collection Title"
+            "boxed_collection": "blades"
           }
         }
       },
@@ -602,10 +592,12 @@
         "collections_fhrtYe"
       ],
       "settings": {
+        "short_description": "No matter the task, Tatara has the tool to get it done—faster, sharper, and more efficiently.",
+        "heading": "Explore Our Collections",
+        "cta_text": "Upgrade your kit today, View All Collection Now!",
+        "cta_link": "shopify://collections",
         "padding_top": 80,
-        "padding_bottom": 30,
-        "margin_top": 100,
-        "margin_bottom": 100
+        "padding_bottom": 30
       }
     },
     "collapsible_content_xmK7XH": {
