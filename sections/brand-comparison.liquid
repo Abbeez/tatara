@@ -1,0 +1,164 @@
+<section class="tatara-comparison">
+  <div class="container">
+    <h2>{{ section.settings.heading }}</h2>
+    <table class="comparison-table">
+      <thead>
+        <tr>
+          <th>{{ section.settings.feature_column }}</th>
+          <th>{{ section.settings.tatara_column }}</th>
+          <th>{{ section.settings.competitor_column }}</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for block in section.blocks %}
+          <tr>
+            <td>
+              {{ block.settings.icon }}
+              {{ block.settings.feature }}
+            </td>
+            <td>✅ {{ block.settings.tatara_value }}</td>
+            <td>❌ {{ block.settings.competitor_value }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+    <p class="comparison-note">
+      🚀 <strong>{{ section.settings.note }}</strong>
+    </p>
+    <p class="cta-link">
+      👉 <a href="{{ section.settings.cta_link }}">{{ section.settings.cta_text }}</a>
+    </p>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Tatara Comparison Table",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Tatara vs. The Competition: What Sets Us Apart?"
+    },
+    {
+      "type": "text",
+      "id": "feature_column",
+      "label": "Feature Column Title",
+      "default": "Feature"
+    },
+    {
+      "type": "text",
+      "id": "tatara_column",
+      "label": "Tatara Column Title",
+      "default": "Tatara Accessories"
+    },
+    {
+      "type": "text",
+      "id": "competitor_column",
+      "label": "Competitor Column Title",
+      "default": "Other Brands"
+    },
+    {
+      "type": "text",
+      "id": "note",
+      "label": "Comparison Note",
+      "default": "Tatara isn’t just another brand—it’s a guarantee of power, precision, and durability."
+    },
+    {
+      "type": "url",
+      "id": "cta_link",
+      "label": "CTA Link"
+    },
+    {
+      "type": "text",
+      "id": "cta_text",
+      "label": "CTA Text",
+      "default": "Shop Now & Upgrade Your Toolkit"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "feature",
+      "name": "Feature Row",
+      "settings": [
+        {
+          "type": "text",
+          "id": "icon",
+          "label": "Feature Icon (Emoji or HTML)",
+          "default": "⚡"
+        },
+        {
+          "type": "text",
+          "id": "feature",
+          "label": "Feature Name",
+          "default": "High-Speed Performance"
+        },
+        {
+          "type": "text",
+          "id": "tatara_value",
+          "label": "Tatara Value",
+          "default": "Yes"
+        },
+        {
+          "type": "text",
+          "id": "competitor_value",
+          "label": "Competitor Value",
+          "default": "No"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Tatara Comparison Table",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+<style>
+  /* ======== Tatara Comparison Table Styles ======== */
+  .tatara-comparison {
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  .comparison-table {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #f8f8f8;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .comparison-table th,
+  .comparison-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .comparison-table th {
+    background: #e0e0e0;
+    font-weight: bold;
+  }
+
+  .comparison-note {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  .cta-link a {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ff6600;
+  }
+</style>
