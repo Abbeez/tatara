@@ -618,7 +618,7 @@
         "description_style": "body",
         "collection": "drill-bit",
         "products_to_show": 9,
-        "columns_desktop": 5,
+        "columns_desktop": 6,
         "full_width": true,
         "show_view_all": false,
         "view_all_style": "solid",
