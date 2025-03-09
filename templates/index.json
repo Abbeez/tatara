@@ -44,9 +44,9 @@
         "button"
       ],
       "settings": {
-        "image": "shopify://shop_images/Tatara_Power_of_accessories.png",
+        "image": "shopify://shop_images/Tatara_Power_of_accessories_1.png",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "adapt",
         "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
