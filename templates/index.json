@@ -384,7 +384,7 @@
         "caption_UHgF4M": {
           "type": "caption",
           "settings": {
-            "caption": "Why Choose Tatara?",
+            "caption": "The Tatara Promise",
             "text_style": "subtitle",
             "text_size": "medium"
           }
@@ -392,14 +392,14 @@
         "heading_6Vtzm8": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Built for Long-term Durability, and  Efficiency</strong>",
+            "heading": "Quality That Lasts, Performance You Can Trust",
             "heading_size": "h1"
           }
         },
         "text_xFBhQC": {
           "type": "text",
           "settings": {
-            "text": "<p>When it comes to tools, quality isn’t just an option—it’s a necessity. Tatara products are made for those who demand the best. Our accessories are<strong> built for long-term durability, and designed for efficiency</strong>. No more dull blades, weak drill bits, or unreliable tools—just <strong>pure power and performance in every cut, every drill, and every chisel stroke</strong>.</p>",
+            "text": "<p>Tatara accessories go through <strong>rigorous testing</strong> to ensure <strong>long-lasting durability and precision performance</strong>. Made from <strong>premium materials</strong>, our products are designed to <strong>help you work efficiently, save time, and achieve the best results</strong>.</p>",
             "text_style": "body"
           }
         },
@@ -460,10 +460,7 @@
         "paragraph_eVrbbz",
         "email_form_tPiHY9"
       ],
-      "custom_css": [
-        ".newsletter {margin-bottom: 5rem;}",
-        ".newsletter__wrapper {border: 1px solid var(--custom-primary);}"
-      ],
+      "custom_css": [],
       "settings": {
         "color_scheme": "scheme-f520fdb2-2f86-4380-9a44-51cd7d0a051a",
         "full_width": true,
