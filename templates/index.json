@@ -31,7 +31,7 @@
           "settings": {
             "button_label_1": "Explore Our Collection",
             "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
+            "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -44,13 +44,13 @@
         "button"
       ],
       "settings": {
-        "image": "shopify://shop_images/Tatara_Official_Webstore.png",
+        "image": "shopify://shop_images/Tatara_Power_of_accessories.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
-        "color_scheme": "scheme-5",
+        "color_scheme": "scheme-5a1384fa-81b6-4e02-a583-b6d030b3de97",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
