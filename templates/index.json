@@ -566,6 +566,90 @@
     },
     "custom_collection_grid_6DCqgj": {
       "type": "custom-collection-grid",
+      "blocks": {
+        "collections_Wc8Xt7": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "brush",
+            "boxed_collection__heading": "Collection Title"
+          }
+        },
+        "collections_8LKPAw": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "blades",
+            "boxed_collection__heading": "Collection Title"
+          }
+        },
+        "collections_ALrAKj": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "chisel",
+            "boxed_collection__heading": "Collection Title"
+          }
+        },
+        "collections_pf6dxH": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "cutter",
+            "boxed_collection__heading": "Collection Title"
+          }
+        },
+        "collections_aen3yL": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "disc",
+            "boxed_collection__heading": "Collection Title"
+          }
+        },
+        "collections_7kXryJ": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "drill-bit",
+            "boxed_collection__heading": "Collection Title"
+          }
+        },
+        "collections_hRLqmD": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "router",
+            "boxed_collection__heading": "Collection Title"
+          }
+        },
+        "collections_7b8L4C": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "sanding",
+            "boxed_collection__heading": "Collection Title"
+          }
+        },
+        "collections_7zP6Hd": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "sds",
+            "boxed_collection__heading": "Collection Title"
+          }
+        },
+        "collections_fhrtYe": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "blades",
+            "boxed_collection__heading": "Collection Title"
+          }
+        }
+      },
+      "block_order": [
+        "collections_Wc8Xt7",
+        "collections_8LKPAw",
+        "collections_ALrAKj",
+        "collections_pf6dxH",
+        "collections_aen3yL",
+        "collections_7kXryJ",
+        "collections_hRLqmD",
+        "collections_7b8L4C",
+        "collections_7zP6Hd",
+        "collections_fhrtYe"
+      ],
       "settings": {
         "padding_top": 20,
         "padding_bottom": 20,
