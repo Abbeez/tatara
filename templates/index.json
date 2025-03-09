@@ -332,19 +332,19 @@
         "button_M76K8n"
       ],
       "settings": {
-        "image": "shopify://shop_images/About_Tatara_ce2a828c-5b15-41fd-bf67-af79897444df.png",
+        "image": "shopify://shop_images/About_Tatara_-_Products.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-b246e394-bd46-4588-8921-74370a398356",
+        "section_color_scheme": "scheme-7ddec07e-a3ba-4386-b5d8-a2dcef3345f4",
         "color_scheme": "scheme-5a1384fa-81b6-4e02-a583-b6d030b3de97",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 80,
-        "padding_bottom": 80
+        "padding_bottom": 0
       }
     },
     "featured_collection": {
@@ -362,8 +362,8 @@
         "products_to_show": 5,
         "columns_desktop": 5,
         "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
+        "show_view_all": true,
+        "view_all_style": "link",
         "enable_desktop_slider": false,
         "color_scheme": "scheme-b246e394-bd46-4588-8921-74370a398356",
         "image_ratio": "adapt",
