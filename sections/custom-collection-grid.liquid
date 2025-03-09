@@ -1,95 +1,37 @@
-{% style %}
-    /* ======== Product Page ======= */
-  .custom-collection-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 16px; /* Adjust spacing between items */
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-
-  .collection-container {
-    flex: 1 1 calc(20% - 16px); /* 5 columns */
-    max-width: calc(20% - 16px);
-    text-align: center;
-  }
-
-  .collection-container a {
-    text-decoration:none;
-
-  }
-  .collection-card {
-    background: #f9f9f9;
-    padding: 0;
-    transition: transform 0.3s ease-in-out;
-    border: 1px solid var(--custom-primary);
-  }
-
-  .collection-card h3 {
-    font-family: var(--font-body-family);
-  }
-
-
-  .collection-card:hover {
-    transform: scale(1.05);
-  }
-
-  /* Ensure only 2 rows max */
-  .custom-collection-list > .collection-container:nth-child(n+11) {
-    display: none;
-  }
-
-  /* Responsive adjustments */
-  @media (max-width: 1024px) {
-    .collection-container {
-      flex: 1 1 calc(33.33% - 16px); /* 3 columns on tablet */
-      max-width: calc(33.33% - 16px);
-    }
-  }
-
-  @media (max-width: 768px) {
-    .collection-container {
-      flex: 1 1 calc(50% - 16px); /* 2 columns on mobile */
-      max-width: calc(50% - 16px);
-    }
-  }
-
-  @media (max-width: 480px) {
-    .collection-container {
-      flex: 1 1 100%; /* 1 column on smaller screens */
-      max-width: 100%;
-    }
-  }
-{% endstyle %}
-
 <section
   id="customCollection"
   class="custom-collection__section scroll-trigger animate--slide-in"
-  style=""
+  style="
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  "
 >
-  <div
-    class="custom-collection-list"
-    style="
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
-    "
-  >
-    {% for block in section.blocks %}
-      {% assign collection_handle = block.settings.boxed_collection %}
-      {% if collection_handle != blank %}
-        {% assign collection = collections[collection_handle] %}
-        <div class="collection-container">
-          <a href="{{ collection.url }}" alt="{{ collection.title }}">
-            <div class="collection-card">
-              <h3>
-                {{ collection.title | truncate: 15 }}
-              </h3>
-            </div>
-          </a>
-        </div>
-      {% endif %}
-    {% endfor %}
+  <div class="container">
+    <h2 class="collection-title">{{ section.settings.heading }}</h2>
+
+    <div class="custom-collection-list">
+      {% for block in section.blocks %}
+        {% assign collection_handle = block.settings.boxed_collection %}
+        {% if collection_handle != blank %}
+          {% assign collection = collections[collection_handle] %}
+          <div class="collection-container">
+            <a href="{{ collection.url }}" alt="{{ collection.title }}">
+              <div class="collection-card">
+                <h3>{{ collection.title | truncate: 15 }}</h3>
+              </div>
+            </a>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    {% if section.settings.cta_text != blank and section.settings.cta_link != blank %}
+      <div class="cta-wrapper">
+        <a href="{{ section.settings.cta_link }}" class="cta-button">
+          {{ section.settings.cta_text }}
+        </a>
+      </div>
+    {% endif %}
   </div>
 </section>
 
@@ -97,48 +39,43 @@
 {
   "name": "Custom Collection List",
   "settings": [
-  {
-    "type": "header",
-    "content": "Section Spacing"
-  },
-  {
-    "type": "range",
-    "id": "padding_top",
-    "label": "Padding Top",
-    "min": 0,
-    "max": 100,
-    "step": 5,
-    "default": 20
-  },
-  {
-    "type": "range",
-    "id": "padding_bottom",
-    "label": "Padding Bottom",
-    "min": 0,
-    "max": 100,
-    "step": 5,
-    "default": 20
-  },
-  {
-    "type": "range",
-    "id": "margin_top",
-    "label": "Margin Top",
-    "min": -200,
-    "max": 100,
-    "step": 5,
-    "default": 20
-  },
-  {
-    "type": "range",
-    "id": "margin_bottom",
-    "label": "Margin Bottom",
-    "min": -200,
-    "max": 100,
-    "step": 5,
-    "default": 20
-  }
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Section Heading",
+      "default": "Explore Our Collections"
+    },
+    {
+      "type": "text",
+      "id": "cta_text",
+      "label": "CTA Button Text",
+      "default": "Shop Now"
+    },
+    {
+      "type": "url",
+      "id": "cta_link",
+      "label": "CTA Button Link"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding Top",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding Bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "default": 20
+    }
   ],
-    "blocks": [
+  "blocks": [
     {
       "type": "Collections",
       "name": "Collection List",
@@ -148,13 +85,7 @@
           "type": "collection",
           "id": "boxed_collection",
           "label": "Choose a collection"
-        },
-        {
-          "type": "text",
-          "id": "boxed_collection__heading",
-          "label": "Heading",
-          "default": "Collection Title"
-        },
+        }
       ]
     }
   ],
@@ -165,3 +96,96 @@
   ]
 }
 {% endschema %}
+
+{% style %}
+  /* ======== Custom Collection Styles ======== */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .collection-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .custom-collection-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .collection-container {
+    flex: 1 1 calc(20% - 16px);
+    max-width: calc(20% - 16px);
+  }
+
+  .collection-container a {
+    text-decoration: none;
+  }
+
+  .collection-card {
+    background: #f9f9f9;
+    padding: 12px;
+    transition: transform 0.3s ease-in-out;
+    border: 2px solid var(--custom-primary);
+    border-radius: 6px;
+  }
+
+  .collection-card h3 {
+    font-family: var(--font-body-family);
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .collection-card:hover {
+    transform: scale(1.05);
+  }
+
+  /* CTA Button */
+  .cta-wrapper {
+    margin-top: 20px;
+  }
+
+  .cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: var(--custom-primary);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+  }
+
+  .cta-button:hover {
+    background-color: #ff6600;
+  }
+
+  /* Responsive Adjustments */
+  @media (max-width: 1024px) {
+    .collection-container {
+      flex: 1 1 calc(33.33% - 16px);
+      max-width: calc(33.33% - 16px);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .collection-container {
+      flex: 1 1 calc(50% - 16px);
+      max-width: calc(50% - 16px);
+    }
+  }
+
+  @media (max-width: 480px) {
+    .collection-container {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  }
+{% endstyle %}
