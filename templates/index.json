@@ -186,6 +186,14 @@
     "image_with_text_JqJRnX": {
       "type": "image-with-text",
       "blocks": {
+        "caption_MWQqNb": {
+          "type": "caption",
+          "settings": {
+            "caption": "About Us",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
         "heading_cGDqRK": {
           "type": "heading",
           "settings": {
@@ -207,21 +215,13 @@
             "button_link": "#",
             "button_style_secondary": false
           }
-        },
-        "caption_MWQqNb": {
-          "type": "caption",
-          "settings": {
-            "caption": "💡 From chisels to drill bits, every Tatara tool undergoes rigorous testing to meet the highest standards of durability and performance.",
-            "text_style": "subtitle",
-            "text_size": "medium"
-          }
         }
       },
       "block_order": [
+        "caption_MWQqNb",
         "heading_cGDqRK",
         "text_DXmnjC",
-        "button_Xp3WYX",
-        "caption_MWQqNb"
+        "button_Xp3WYX"
       ],
       "settings": {
         "image": "shopify://shop_images/About_Tatara_ce2a828c-5b15-41fd-bf67-af79897444df.png",
@@ -242,17 +242,25 @@
     "image_with_text_PCFhm7": {
       "type": "image-with-text",
       "blocks": {
+        "caption_MDHL96": {
+          "type": "caption",
+          "settings": {
+            "caption": "Why Choose Tatara?",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
         "heading_dxXQxx": {
           "type": "heading",
           "settings": {
-            "heading": "Why Tatara? Because Every Cut, Every Drill, Every Detail Matters.",
+            "heading": "<strong>Built for Long-term Durability, and  Efficiency</strong>",
             "heading_size": "h1"
           }
         },
         "text_QwTE6d": {
           "type": "text",
           "settings": {
-            "text": "<p>Tatara accessories are designed to keep up with <strong>your craftsmanship and creativity</strong>. Built with <strong>premium materials and meticulous attention to detail</strong>, each piece delivers <strong>unmatched precision and durability</strong>. No more dull edges, weak bits, or unreliable blades—just <strong>accessories that perform when you need them most</strong>.</p>",
+            "text": "<p>When it comes to tools, quality isn’t just an option—it’s a necessity. Tatara products are made for those who demand the best. Our accessories are<strong> built for long-term durability, and designed for efficiency</strong>. No more dull blades, weak drill bits, or unreliable tools—just <strong>pure power and performance in every cut, every drill, and every chisel stroke</strong>.</p>",
             "text_style": "body"
           }
         },
@@ -263,21 +271,13 @@
             "button_link": "#",
             "button_style_secondary": false
           }
-        },
-        "caption_MDHL96": {
-          "type": "caption",
-          "settings": {
-            "caption": "💡 Tatara isn’t just a brand—it’s a commitment to quality, designed for professionals, hobbyists, and anyone who values efficiency and accuracy in their work.",
-            "text_style": "subtitle",
-            "text_size": "medium"
-          }
         }
       },
       "block_order": [
+        "caption_MDHL96",
         "heading_dxXQxx",
         "text_QwTE6d",
-        "button_M76K8n",
-        "caption_MDHL96"
+        "button_M76K8n"
       ],
       "settings": {
         "height": "adapt",
