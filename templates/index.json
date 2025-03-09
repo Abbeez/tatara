@@ -434,42 +434,6 @@
         "padding_bottom": 0
       }
     },
-    "newsletter_bLTeRV": {
-      "type": "newsletter",
-      "blocks": {
-        "heading_VjHJ8R": {
-          "type": "heading",
-          "settings": {
-            "heading": "Stay Connected & Get Exclusive Deals",
-            "heading_size": "h1"
-          }
-        },
-        "paragraph_eVrbbz": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>📩 <strong>Sign up for early access to new products and special discounts!</strong></p><p>Subscribe Now & Get 10% Off</p>"
-          }
-        },
-        "email_form_tPiHY9": {
-          "type": "email_form",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "heading_VjHJ8R",
-        "paragraph_eVrbbz",
-        "email_form_tPiHY9"
-      ],
-      "custom_css": [
-        "input {background: var(--custom-primary); border: none; color: #222;}"
-      ],
-      "settings": {
-        "color_scheme": "scheme-f520fdb2-2f86-4380-9a44-51cd7d0a051a",
-        "full_width": true,
-        "padding_top": 72,
-        "padding_bottom": 72
-      }
-    },
     "image_with_text_eBFTyT": {
       "type": "image-with-text",
       "blocks": {
@@ -690,6 +654,41 @@
         "padding_bottom": 36
       }
     },
+    "newsletter_bLTeRV": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_VjHJ8R": {
+          "type": "heading",
+          "settings": {
+            "heading": "Stay Connected & Get Exclusive Deals",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_eVrbbz": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>📩 <strong>Sign up for early access to new products and special discounts!</strong></p><p>Subscribe Now & Get 10% Off</p>"
+          }
+        },
+        "email_form_tPiHY9": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_VjHJ8R",
+        "paragraph_eVrbbz",
+        "email_form_tPiHY9"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": false,
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
     "rich_text_cg4E6h": {
       "type": "rich-text",
       "blocks": {
@@ -724,10 +723,10 @@
     "image_with_text_PCFhm7",
     "featured_collection",
     "image_with_text_QdHXHV",
-    "newsletter_bLTeRV",
     "image_with_text_eBFTyT",
     "custom_collection_grid_6DCqgj",
     "collapsible_content_xmK7XH",
+    "newsletter_bLTeRV",
     "rich_text_cg4E6h"
   ]
 }
