@@ -224,6 +224,7 @@
         "caption_MWQqNb"
       ],
       "settings": {
+        "image": "shopify://shop_images/About_Tatara.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
