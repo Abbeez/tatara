@@ -3606,6 +3606,17 @@ details-disclosure > details {
 
 /* ================================= CUSTOM CSS =============================== */
 
+/* Page Background */
+
+body{
+  background: url('https://cdn.shopify.com/s/files/1/0742/3521/6090/files/Tatara_Background.png?v=1741495794');
+  backgroud-size:cover;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+}
+
+/* end background */
+
 /* ======== Product Page =======*/
 .thumbnail-list__item {
     border: 1px solid #F29D13;
