@@ -77,7 +77,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "Every detail matters when you're working on a project, and the right accessories make all the difference. <strong>Tatara brings Japan-quality precision to chisels, drill bits, circular saw blades, and more</strong>, giving you the reliability and performance you need. Designed for durability and accuracy, our accessories help you work <strong>smoother, faster, and more efficiently</strong>—so you can focus on creating, building, and perfecting every detail.",
+            "text": "<strong>Tatara brings Japan-quality precision to chisels, drill bits, circular saw blades, and more</strong>, giving you the reliability and performance you need.",
             "text_style": "body"
           }
         },
@@ -188,21 +188,21 @@
         "heading_cGDqRK": {
           "type": "heading",
           "settings": {
-            "heading": "Japan’s Engineering Excellence in Your Hands",
+            "heading": "Japan-Quality Craftsmanship in Every Piece",
             "heading_size": "h1"
           }
         },
         "text_DXmnjC": {
           "type": "text",
           "settings": {
-            "text": "<p>Tatara is all about <strong>Japan-quality craftsmanship</strong>—inspired by the traditional <strong>Japanese furnace</strong> that symbolizes <strong>strength and precision</strong>, we create chisels, drill bits, circular saws, and more that are built to last and designed to deliver top performance in every project.</p>",
+            "text": "<p>Tatara is inspired by the <strong>traditional Japanese furnace</strong> known for producing some of the finest metalwork in history. That same dedication to <strong>strength and precision</strong> is reflected in every <strong>chisel, drill bit, and cutting accessory we create</strong>. Whether you're shaping wood, working with metal, or cutting through tough materials, Tatara gives you the confidence to get the job done right—every time.</p>",
             "text_style": "body"
           }
         },
         "button_Xp3WYX": {
           "type": "button",
           "settings": {
-            "button_label": "Explore Accessories",
+            "button_label": "Learn More About Tatara",
             "button_link": "#",
             "button_style_secondary": false
           }
@@ -243,21 +243,21 @@
         "heading_dxXQxx": {
           "type": "heading",
           "settings": {
-            "heading": "Japan’s Engineering Excellence in Your Hands",
+            "heading": "Why Tatara? Because Every Cut, Every Drill, Every Detail Matters.",
             "heading_size": "h1"
           }
         },
         "text_QwTE6d": {
           "type": "text",
           "settings": {
-            "text": "<p>Tatara is all about <strong>Japan-quality craftsmanship</strong>—inspired by the traditional <strong>Japanese furnace</strong> that symbolizes <strong>strength and precision</strong>, we create chisels, drill bits, circular saws, and more that are built to last and designed to deliver top performance in every project.</p>",
+            "text": "<p>Tatara accessories are designed to keep up with <strong>your craftsmanship and creativity</strong>. Built with <strong>premium materials and meticulous attention to detail</strong>, each piece delivers <strong>unmatched precision and durability</strong>. No more dull edges, weak bits, or unreliable blades—just <strong>accessories that perform when you need them most</strong>.</p>",
             "text_style": "body"
           }
         },
         "button_M76K8n": {
           "type": "button",
           "settings": {
-            "button_label": "Explore Accessories",
+            "button_label": "Discover the Collection",
             "button_link": "#",
             "button_style_secondary": false
           }
@@ -265,7 +265,7 @@
         "caption_MDHL96": {
           "type": "caption",
           "settings": {
-            "caption": "💡 From chisels to drill bits, every Tatara tool undergoes rigorous testing to meet the highest standards of durability and performance.",
+            "caption": "💡 Tatara isn’t just a brand—it’s a commitment to quality, designed for professionals, hobbyists, and anyone who values efficiency and accuracy in their work.",
             "text_style": "subtitle",
             "text_size": "medium"
           }
@@ -295,9 +295,9 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Tools That Work as Hard as You Do",
+        "title": "Our Best-Selling Japan-Quality Accessories",
         "heading_size": "h1",
-        "description": "<p><strong>📌 No matter the task, Tatara has the tool to get it done—faster, sharper, and more efficiently.</strong></p>",
+        "description": "<p>The right accessories enhance your work, making every cut sharper and every drill smoother. Tatara brings you expertly crafted products designed for both <strong>professionals and home DIYers</strong>, ensuring <strong>effortless precision and lasting durability</strong>.</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "all",
