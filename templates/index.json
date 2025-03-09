@@ -52,13 +52,14 @@
         "slide_7FUBJk",
         "slide_CNyhpm"
       ],
+      "disabled": true,
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
         "slider_visual": "counter",
         "auto_rotate": false,
         "change_slides_speed": 5,
-        "image_behavior": "ambient",
+        "image_behavior": "none",
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
@@ -97,7 +98,6 @@
         "text",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Tatara_Power_of_accessories_1.png",
         "image_overlay_opacity": 0,
