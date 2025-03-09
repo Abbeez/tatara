@@ -460,7 +460,9 @@
         "paragraph_eVrbbz",
         "email_form_tPiHY9"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "input{background: var(--custom-primary); border: none; color: #222;}"
+      ],
       "settings": {
         "color_scheme": "scheme-f520fdb2-2f86-4380-9a44-51cd7d0a051a",
         "full_width": true,
