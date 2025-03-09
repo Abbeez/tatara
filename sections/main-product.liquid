@@ -77,6 +77,37 @@
     <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
       <div class="grid__item product__media-wrapper">
         {% render 'product-media-gallery', variant_images: variant_images %}
+
+        <!-- Payment Methods -->
+        {% style %}
+          .payment-method ul {
+              margin-top: 15px;
+              margin-bottom: 15px;
+              padding:0;
+              display: flex;
+              gap: 5px;
+              flex-direction: row;
+              flex-wrap: wrap;
+          }
+
+          .payment-method ul li{
+            list-style-type:none;
+            min-width: 50px;
+          }
+
+          .payment-method ul li img{
+            width:100%;
+          }
+        {% endstyle %}
+        <div class="payment-method">
+          <h3>Payment Methods</h3>
+          <ul>
+            {% for item in shop.metaobjects.payment_methods.values %}
+              <li><img src="{{ item.photo | img_url: '300x300' }}" alt="{{ item.title }}"></li>
+            {% endfor %}
+          </ul>
+        </div>
+        <!-- End Payment -->
       </div>
       <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         <section
