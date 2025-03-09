@@ -409,39 +409,6 @@
         "padding_bottom": 80
       }
     },
-    "newsletter_bLTeRV": {
-      "type": "newsletter",
-      "blocks": {
-        "heading_VjHJ8R": {
-          "type": "heading",
-          "settings": {
-            "heading": "Stay Connected & Get Exclusive Deals",
-            "heading_size": "h1"
-          }
-        },
-        "paragraph_eVrbbz": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>📩 <strong>Sign up for early access to new products and special discounts!</strong></p><p>Subscribe Now & Get 10% Off</p>"
-          }
-        },
-        "email_form_tPiHY9": {
-          "type": "email_form",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "heading_VjHJ8R",
-        "paragraph_eVrbbz",
-        "email_form_tPiHY9"
-      ],
-      "settings": {
-        "color_scheme": "scheme-b246e394-bd46-4588-8921-74370a398356",
-        "full_width": true,
-        "padding_top": 64,
-        "padding_bottom": 68
-      }
-    },
     "featured_collection_CEXW3Y": {
       "type": "featured-collection",
       "disabled": true,
@@ -634,6 +601,42 @@
         "full_width": true,
         "padding_top": 64,
         "padding_bottom": 52
+      }
+    },
+    "newsletter_bLTeRV": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_VjHJ8R": {
+          "type": "heading",
+          "settings": {
+            "heading": "Stay Connected & Get Exclusive Deals",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_eVrbbz": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>📩 <strong>Sign up for early access to new products and special discounts!</strong></p><p>Subscribe Now & Get 10% Off</p>"
+          }
+        },
+        "email_form_tPiHY9": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_VjHJ8R",
+        "paragraph_eVrbbz",
+        "email_form_tPiHY9"
+      ],
+      "custom_css": [
+        ".newsletter {margin-bottom: 5rem;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-5",
+        "full_width": false,
+        "padding_top": 48,
+        "padding_bottom": 72
       }
     }
   },
