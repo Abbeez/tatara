@@ -12,12 +12,6 @@
     "rich_text_3PYHWB": {
       "type": "rich-text",
       "blocks": {
-        "text_nTahKQ": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
         "caption_K6ekCB": {
           "type": "caption",
           "settings": {
@@ -28,7 +22,6 @@
         }
       },
       "block_order": [
-        "text_nTahKQ",
         "caption_K6ekCB"
       ],
       "settings": {
@@ -36,8 +29,8 @@
         "content_alignment": "center",
         "color_scheme": "scheme-2",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 8,
+        "padding_bottom": 8
       }
     },
     "main": {
