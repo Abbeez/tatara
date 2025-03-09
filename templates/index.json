@@ -287,8 +287,8 @@
         "content_alignment": "center",
         "color_scheme": "scheme-5a1384fa-81b6-4e02-a583-b6d030b3de97",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     },
     "image_with_text_PCFhm7": {
