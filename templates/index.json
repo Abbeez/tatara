@@ -70,14 +70,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Tatara Japan-Quality Accessories",
-            "heading_size": "hxl"
+            "heading": "Tatara – Japan-Quality Accessories for Precision & Performance",
+            "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Built for precision. Engineered for power. Designed to last. Tatara’s premium chisels, drill bits, circular saws, and more bring Japanese excellence to your hands.",
+            "text": "Every detail matters when you're working on a project, and the right accessories make all the difference. <strong>Tatara brings Japan-quality precision to chisels, drill bits, circular saw blades, and more</strong>, giving you the reliability and performance you need. Designed for durability and accuracy, our accessories help you work <strong>smoother, faster, and more efficiently</strong>—so you can focus on creating, building, and perfecting every detail.",
             "text_style": "body"
           }
         },
@@ -87,9 +87,9 @@
             "button_label_1": "Shop Now",
             "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label_2": "Bulk Order",
+            "button_link_2": "shopify://pages/contact",
+            "button_style_secondary_2": true
           }
         }
       },
@@ -226,6 +226,61 @@
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-b246e394-bd46-4588-8921-74370a398356",
+        "color_scheme": "scheme-5a1384fa-81b6-4e02-a583-b6d030b3de97",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "image_with_text_PCFhm7": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_dxXQxx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Japan’s Engineering Excellence in Your Hands",
+            "heading_size": "h1"
+          }
+        },
+        "text_QwTE6d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tatara is all about <strong>Japan-quality craftsmanship</strong>—inspired by the traditional <strong>Japanese furnace</strong> that symbolizes <strong>strength and precision</strong>, we create chisels, drill bits, circular saws, and more that are built to last and designed to deliver top performance in every project.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_M76K8n": {
+          "type": "button",
+          "settings": {
+            "button_label": "Explore Accessories",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        },
+        "caption_MDHL96": {
+          "type": "caption",
+          "settings": {
+            "caption": "💡 From chisels to drill bits, every Tatara tool undergoes rigorous testing to meet the highest standards of durability and performance.",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dxXQxx",
+        "text_QwTE6d",
+        "button_M76K8n",
+        "caption_MDHL96"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
@@ -576,6 +631,7 @@
     "image_banner",
     "multicolumn_EM3Ejm",
     "image_with_text_JqJRnX",
+    "image_with_text_PCFhm7",
     "featured_collection",
     "image_with_text_eBFTyT",
     "featured_collection_CEXW3Y",
