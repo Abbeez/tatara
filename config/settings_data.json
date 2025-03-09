@@ -313,7 +313,7 @@
       "scheme-7ddec07e-a3ba-4386-b5d8-a2dcef3345f4": {
         "settings": {
           "background": "#ffffff",
-          "background_gradient": "linear-gradient(180deg, rgba(255, 228, 49, 0) 63%, rgba(249, 32, 32, 1) 100%)",
+          "background_gradient": "linear-gradient(180deg, rgba(255, 228, 49, 0), rgba(249, 32, 32, 1) 100%)",
           "text": "#404040",
           "button": "#121212",
           "button_label": "#ffffff",

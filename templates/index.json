@@ -183,6 +183,63 @@
         "padding_bottom": 0
       }
     },
+    "image_with_text_JqJRnX": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_MWQqNb": {
+          "type": "caption",
+          "settings": {
+            "caption": "About Us",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "heading_cGDqRK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Japan-Quality Craftsmanship in Every Piece",
+            "heading_size": "h1"
+          }
+        },
+        "text_DXmnjC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tatara is inspired by the <strong>traditional Japanese furnace</strong> known for producing some of the finest metalwork in history. That same dedication to <strong>strength and precision</strong> is reflected in every <strong>chisel, drill bit, and cutting accessory we create</strong>. Whether you're shaping wood, working with metal, or cutting through tough materials, Tatara gives you the confidence to get the job done right—every time.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_Xp3WYX": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More About Tatara",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_MWQqNb",
+        "heading_cGDqRK",
+        "text_DXmnjC",
+        "button_Xp3WYX"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/About_Tatara_ce2a828c-5b15-41fd-bf67-af79897444df.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "section_color_scheme": "scheme-b246e394-bd46-4588-8921-74370a398356",
+        "color_scheme": "scheme-5a1384fa-81b6-4e02-a583-b6d030b3de97",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
     "rich_text_kgArK9": {
       "type": "rich-text",
       "blocks": {
@@ -234,52 +291,60 @@
         "padding_bottom": 64
       }
     },
-    "image_banner_pW6Ph6": {
-      "type": "image-banner",
+    "image_with_text_PCFhm7": {
+      "type": "image-with-text",
       "blocks": {
-        "heading_qpYbpz": {
+        "caption_MDHL96": {
+          "type": "caption",
+          "settings": {
+            "caption": "Why Choose Tatara?",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "heading_dxXQxx": {
           "type": "heading",
           "settings": {
             "heading": "<strong>Built for Long-term Durability, and  Efficiency</strong>",
-            "heading_size": "h0"
+            "heading_size": "h1"
           }
         },
-        "text_Prkec6": {
+        "text_QwTE6d": {
           "type": "text",
           "settings": {
-            "text": "When it comes to tools, quality isn’t just an option—it’s a necessity. Tatara products are made for those who demand the best. Our accessories are<strong> built for long-term durability, and designed for efficiency</strong>. No more dull blades, weak drill bits, or unreliable tools—just <strong>pure power and performance in every cut, every drill, and every chisel stroke</strong>.",
+            "text": "<p>When it comes to tools, quality isn’t just an option—it’s a necessity. Tatara products are made for those who demand the best. Our accessories are<strong> built for long-term durability, and designed for efficiency</strong>. No more dull blades, weak drill bits, or unreliable tools—just <strong>pure power and performance in every cut, every drill, and every chisel stroke</strong>.</p>",
             "text_style": "body"
           }
         },
-        "buttons_B7hwDd": {
-          "type": "buttons",
+        "button_M76K8n": {
+          "type": "button",
           "settings": {
-            "button_label_1": "Discover the Collection 🔧",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "shopify://pages/contact",
-            "button_style_secondary_2": true
+            "button_label": "Discover the Collection 🔧",
+            "button_link": "shopify://collections/all",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "heading_qpYbpz",
-        "text_Prkec6",
-        "buttons_B7hwDd"
+        "caption_MDHL96",
+        "heading_dxXQxx",
+        "text_QwTE6d",
+        "button_M76K8n"
       ],
       "settings": {
-        "image": "shopify://shop_images/Why_Choose_Tatara.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-right",
-        "show_text_box": false,
-        "desktop_content_alignment": "right",
-        "color_scheme": "scheme-6f20de88-22d3-4092-9e6f-53f1befe7723",
+        "image": "shopify://shop_images/About_Tatara_-_Products.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-5a1384fa-81b6-4e02-a583-b6d030b3de97",
+        "color_scheme": "scheme-5a1384fa-81b6-4e02-a583-b6d030b3de97",
         "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "mobile_content_alignment": "left",
+        "padding_top": 80,
+        "padding_bottom": 0
       }
     },
     "featured_collection": {
@@ -635,8 +700,9 @@
     "slideshow_PBQbrF",
     "image_banner",
     "multicolumn_EM3Ejm",
+    "image_with_text_JqJRnX",
     "rich_text_kgArK9",
-    "image_banner_pW6Ph6",
+    "image_with_text_PCFhm7",
     "featured_collection",
     "image_with_text_eBFTyT",
     "featured_collection_yPPRkU",
