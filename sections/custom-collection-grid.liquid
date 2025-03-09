@@ -7,11 +7,6 @@
   "
 >
   <div class="container">
-    <!-- Short Description with Icon -->
-    {% if section.settings.short_description != blank %}
-      <p class="collection-description"><span class="icon">🚀</span> {{ section.settings.short_description }}</p>
-    {% endif %}
-
     <!-- Section Title -->
     <h2 class="collection-title">{{ section.settings.heading }}</h2>
 
@@ -30,6 +25,11 @@
         {% endif %}
       {% endfor %}
     </div>
+
+    <!-- Short Description with Icon -->
+    {% if section.settings.short_description != blank %}
+      <p class="collection-description"><span class="icon">🚀</span> {{ section.settings.short_description }}</p>
+    {% endif %}
 
     <!-- CTA Button with Emoji -->
     {% if section.settings.cta_text != blank and section.settings.cta_link != blank %}
