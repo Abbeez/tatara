@@ -319,8 +319,8 @@
         "button_M76K8n": {
           "type": "button",
           "settings": {
-            "button_label": "Discover the Collection",
-            "button_link": "#",
+            "button_label": "Discover the Collection 🔧",
+            "button_link": "shopify://collections/all",
             "button_style_secondary": false
           }
         }
@@ -397,7 +397,7 @@
         "button_zXQwbX": {
           "type": "button",
           "settings": {
-            "button_label": "Get Tatara today. 👉",
+            "button_label": "Order in Bulk. 👉",
             "button_link": "shopify://collections/all",
             "button_style_secondary": false
           }
