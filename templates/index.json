@@ -449,7 +449,7 @@
         "heading_alignment": "center",
         "layout": "section",
         "color_scheme": "scheme-b246e394-bd46-4588-8921-74370a398356",
-        "container_color_scheme": "scheme-1",
+        "container_color_scheme": "scheme-b246e394-bd46-4588-8921-74370a398356",
         "open_first_collapsible_row": true,
         "image_ratio": "large",
         "desktop_layout": "image_second",
