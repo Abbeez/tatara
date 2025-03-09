@@ -413,6 +413,7 @@
     },
     "featured_collection_CEXW3Y": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Cutting & Abrasive Accessories",
         "heading_size": "h2",
@@ -493,6 +494,7 @@
         "buy_buttons_kKHQrg",
         "share_W3xp3r"
       ],
+      "disabled": true,
       "settings": {
         "product": "tatara-laser-welded-diamond-blade",
         "color_scheme": "scheme-b246e394-bd46-4588-8921-74370a398356",
@@ -510,9 +512,12 @@
     },
     "featured_collection_yPPRkU": {
       "type": "featured-collection",
+      "custom_css": [
+        ".collection__title {text-align: center;}"
+      ],
       "settings": {
         "title": "Drilling & Surface Finishing Accessories",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "description": "<p>Achieve precise drilling and flawless finishes with Tatara’s Drilling & Surface Finishing Accessories. Get reliable drill bits, sanding sheets, and abrasive meshes for every task.</p>",
         "show_description": false,
         "description_style": "body",
@@ -534,46 +539,6 @@
         "swipe_on_mobile": false,
         "padding_top": 80,
         "padding_bottom": 80
-      }
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "caption_kDQnq3": {
-          "type": "caption",
-          "settings": {
-            "caption": "Add a tagline",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "caption_kDQnq3"
-      ],
-      "disabled": true,
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-2",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 40
       }
     },
     "collapsible_content_xmK7XH": {
@@ -683,7 +648,6 @@
     "featured_collection_CEXW3Y",
     "featured_product_GTyrb9",
     "featured_collection_yPPRkU",
-    "rich_text",
     "collapsible_content_xmK7XH",
     "rich_text_cg4E6h"
   ]
