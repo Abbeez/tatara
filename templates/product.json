@@ -77,7 +77,7 @@
           "type": "text",
           "settings": {
             "text": "We offer nationwide shipping within the Philippines, with estimated delivery times of <strong>2-3 days for orders</strong> within the <strong>National Capital Region (NCR)</strong> and <strong>5-7 days for orders outside the NCR</strong>, subject to courier availability and any unforeseen circumstances.",
-            "text_style": "uppercase"
+            "text_style": "body"
           }
         },
         "description": {
@@ -87,7 +87,7 @@
         "custom_liquid_WhVGhB": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<!-- Payment Methods -->\n{% style %}\n.payment-method ul {\n    margin-top: 15px;\n    margin-bottom: 15px;\n    padding:0;\n    display: flex;\n    gap: 5px;\n    flex-direction: row;\n    flex-wrap: wrap;\n}\n\n.payment-method ul li{\n  list-style-type:none;\n}\n\n.payment-method ul li img{\n  width:100%;\n}\n{% endstyle %}\n<div class=\"payment-method\">\n<h3>Payment Methods</h3>\n<ul>\n  {% for item in shop.metaobjects.payment_methods.values %}\n    <li><img src=\"{{ item.photo | img_url: '300x300' }}\" alt=\"{{ item.title }}\"></li>\n  {% endfor %}\n</ul>\n</div>\n    <!-- End Payment -->"
+            "custom_liquid": "<!-- Payment Methods -->\n{% style %}\n.payment-method ul {\n    margin-top: 15px;\n    margin-bottom: 15px;\n    padding:0;\n    display: flex;\n    gap: 5px;\n    flex-direction: row;\n    flex-wrap: wrap;\n}\n\n.payment-method ul li{\n  list-style-type:none;\n  min-width: 50px;\n}\n\n.payment-method ul li img{\n  width:100%;\n}\n{% endstyle %}\n<div class=\"payment-method\">\n<h3>Payment Methods</h3>\n<ul>\n  {% for item in shop.metaobjects.payment_methods.values %}\n    <li><img src=\"{{ item.photo | img_url: '300x300' }}\" alt=\"{{ item.title }}\"></li>\n  {% endfor %}\n</ul>\n</div>\n    <!-- End Payment -->"
           }
         },
         "share": {
@@ -96,16 +96,10 @@
             "share_label": "Share"
           }
         },
-        "sku_n9LX3Y": {
-          "type": "sku",
-          "settings": {
-            "text_style": "body"
-          }
-        },
         "text_9Gzqz8": {
           "type": "text",
           "settings": {
-            "text": "Text block",
+            "text": "<strong>30-day returns</strong> for unused items in original packaging with proof of purchase. Send a return request and unboxing video to <a><em>tatarabybge@gmail.com</em></a>. No returns on sale items.",
             "text_style": "body"
           }
         }
@@ -122,7 +116,6 @@
         "description",
         "custom_liquid_WhVGhB",
         "share",
-        "sku_n9LX3Y",
         "text_9Gzqz8"
       ],
       "settings": {
