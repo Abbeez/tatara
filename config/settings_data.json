@@ -306,7 +306,7 @@
           "text": "#ffffff",
           "button": "#b5312c",
           "button_label": "#ffffff",
-          "secondary_button_label": "#b5312c",
+          "secondary_button_label": "#121212",
           "shadow": "#121212"
         }
       }
