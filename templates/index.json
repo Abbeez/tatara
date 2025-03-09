@@ -112,6 +112,61 @@
         "show_text_below": false
       }
     },
+    "image_with_text_JqJRnX": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_cGDqRK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Japan-Quality Craftsmanship in Every Piece",
+            "heading_size": "h1"
+          }
+        },
+        "text_DXmnjC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tatara is inspired by the <strong>traditional Japanese furnace</strong> known for producing some of the finest metalwork in history. That same dedication to <strong>strength and precision</strong> is reflected in every <strong>chisel, drill bit, and cutting accessory we create</strong>. Whether you're shaping wood, working with metal, or cutting through tough materials, Tatara gives you the confidence to get the job done right—every time.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_Xp3WYX": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More About Tatara",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        },
+        "caption_MWQqNb": {
+          "type": "caption",
+          "settings": {
+            "caption": "💡 From chisels to drill bits, every Tatara tool undergoes rigorous testing to meet the highest standards of durability and performance.",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cGDqRK",
+        "text_DXmnjC",
+        "button_Xp3WYX",
+        "caption_MWQqNb"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-b246e394-bd46-4588-8921-74370a398356",
+        "color_scheme": "scheme-5a1384fa-81b6-4e02-a583-b6d030b3de97",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
     "multicolumn_EM3Ejm": {
       "type": "multicolumn",
       "blocks": {
@@ -181,61 +236,6 @@
         "swipe_on_mobile": false,
         "padding_top": 52,
         "padding_bottom": 0
-      }
-    },
-    "image_with_text_JqJRnX": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_cGDqRK": {
-          "type": "heading",
-          "settings": {
-            "heading": "Japan-Quality Craftsmanship in Every Piece",
-            "heading_size": "h1"
-          }
-        },
-        "text_DXmnjC": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Tatara is inspired by the <strong>traditional Japanese furnace</strong> known for producing some of the finest metalwork in history. That same dedication to <strong>strength and precision</strong> is reflected in every <strong>chisel, drill bit, and cutting accessory we create</strong>. Whether you're shaping wood, working with metal, or cutting through tough materials, Tatara gives you the confidence to get the job done right—every time.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_Xp3WYX": {
-          "type": "button",
-          "settings": {
-            "button_label": "Learn More About Tatara",
-            "button_link": "#",
-            "button_style_secondary": false
-          }
-        },
-        "caption_MWQqNb": {
-          "type": "caption",
-          "settings": {
-            "caption": "💡 From chisels to drill bits, every Tatara tool undergoes rigorous testing to meet the highest standards of durability and performance.",
-            "text_style": "subtitle",
-            "text_size": "medium"
-          }
-        }
-      },
-      "block_order": [
-        "heading_cGDqRK",
-        "text_DXmnjC",
-        "button_Xp3WYX",
-        "caption_MWQqNb"
-      ],
-      "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-b246e394-bd46-4588-8921-74370a398356",
-        "color_scheme": "scheme-5a1384fa-81b6-4e02-a583-b6d030b3de97",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 80,
-        "padding_bottom": 80
       }
     },
     "image_with_text_PCFhm7": {
@@ -644,8 +644,8 @@
   "order": [
     "slideshow_PBQbrF",
     "image_banner",
-    "multicolumn_EM3Ejm",
     "image_with_text_JqJRnX",
+    "multicolumn_EM3Ejm",
     "image_with_text_PCFhm7",
     "featured_collection",
     "image_with_text_eBFTyT",
