@@ -294,6 +294,9 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "custom_css": [
+        ".collection__title {text-align: center;}"
+      ],
       "settings": {
         "title": "Our Best-Selling Japan-Quality Accessories",
         "heading_size": "h1",
