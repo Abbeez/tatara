@@ -240,9 +240,9 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured Tatara Products",
-        "heading_size": "h2",
-        "description": "",
+        "title": "Tools That Work as Hard as You Do",
+        "heading_size": "h1",
+        "description": "<p><strong>📌 No matter the task, Tatara has the tool to get it done—faster, sharper, and more efficiently.</strong></p>",
         "show_description": false,
         "description_style": "body",
         "collection": "all",
