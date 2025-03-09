@@ -70,7 +70,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Tatara - Tougher Than the Rest",
+            "heading": "Access Your Power!",
             "heading_size": "h0"
           }
         },
@@ -99,7 +99,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify://shop_images/Tatara_Power_of_accessories_1.png",
+        "image": "shopify://shop_images/Access_your_power_with_Tatara.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-left",
