@@ -58,7 +58,7 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button",
+            "picker_type": "dropdown",
             "swatch_shape": "circle"
           }
         },
@@ -76,7 +76,7 @@
         "text_Yg9cpm": {
           "type": "text",
           "settings": {
-            "text": "We offer nationwide shipping within the Philippines, with estimated delivery times of <strong>2-3 days for orders</strong> within the <strong>National Capital Region (NCR)</strong> and <strong>5-7 days for orders outside the NCR</strong>, subject to courier availability and any unforeseen circumstances.",
+            "text": "<strong>Delivery:</strong> <strong> 2-3 days</strong> for orders within the National Capital Region (NCR) and <strong>5-7 days</strong> for orders outside the NCR, subject to courier availability and any unforeseen circumstances.",
             "text_style": "body"
           }
         },
@@ -108,7 +108,7 @@
         "text_9Gzqz8": {
           "type": "text",
           "settings": {
-            "text": "<strong>30-day returns</strong> for unused items in original packaging with proof of purchase. Send a return request and unboxing video to <a><em>tatarabybge@gmail.com</em></a>. No returns on sale items.",
+            "text": "<strong>Returns: </strong>30-days<strong> </strong>for unused items in original packaging with proof of purchase",
             "text_style": "body"
           }
         }
