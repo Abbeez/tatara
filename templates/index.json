@@ -319,6 +319,75 @@
         "padding_bottom": 80
       }
     },
+    "featured_product_GTyrb9": {
+      "type": "featured-product",
+      "blocks": {
+        "text_Lf4YKp": {
+          "type": "text",
+          "settings": {
+            "text": "Featured {{ section.settings.product.vendor }} Product",
+            "text_style": "uppercase"
+          }
+        },
+        "title_en7JE9": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_f8Jwzc": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_GbjTjz": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_xLxgxX": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_kKHQrg": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_W3xp3r": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_Lf4YKp",
+        "title_en7JE9",
+        "price_f8Jwzc",
+        "variant_picker_GbjTjz",
+        "quantity_selector_xLxgxX",
+        "buy_buttons_kKHQrg",
+        "share_W3xp3r"
+      ],
+      "settings": {
+        "product": "tatara-laser-welded-diamond-blade",
+        "color_scheme": "scheme-5",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection_yPPRkU": {
       "type": "featured-collection",
       "settings": {
@@ -490,6 +559,7 @@
     "featured_collection",
     "image_with_text_eBFTyT",
     "featured_collection_CEXW3Y",
+    "featured_product_GTyrb9",
     "featured_collection_yPPRkU",
     "rich_text",
     "collapsible_content_xmK7XH",
