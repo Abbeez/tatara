@@ -70,21 +70,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Access Your Power!",
+            "heading": "Tatara Japan-Quality Accessories",
             "heading_size": "hxl"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Tatara accessories make power tools tougher and more reliable. Built for durability and precision, they ensure every cut, drill, and grind outperforms the rest.",
+            "text": "Built for precision. Engineered for power. Designed to last. Tatara’s premium chisels, drill bits, circular saws, and more bring Japanese excellence to your hands.",
             "text_style": "body"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Explore Our Collection",
+            "button_label_1": "Shop Now",
             "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -119,8 +119,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/008-tool-box-1_a1732c6a-efe7-4d9f-9377-f3ce213f1e11.png",
-            "title": "<strong>Engineered for Precision</strong>",
-            "text": "<p>Crafted to the highest Japanese standards for flawless performance.</p>",
+            "title": "Unmatched Durability",
+            "text": "<p>Built and Designed to handle tough jobs with ease.</p>",
             "link_label": "",
             "link": ""
           }
@@ -129,8 +129,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/004-durable_f5d13a66-1eef-47cf-a87e-bee0eb8e75f9.png",
-            "title": "<strong>Built to Boos</strong>t",
-            "text": "<p>Optimized to work seamlessly with your power tools for maximum efficiency.</p>",
+            "title": "Versatile & Reliable",
+            "text": "<p>Perfect for woodworkers, metalworkers, and builders.</p>",
             "link_label": "",
             "link": ""
           }
@@ -139,8 +139,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/007-wrench_5025034b-b950-4f96-942d-ea2a4effde7d.png",
-            "title": "<strong>Forged to Endure</strong>",
-            "text": "<p>Made with premium materials to withstand intense pressure, impact, and wear.</p>",
+            "title": "<strong>Innovation at its Core</strong>",
+            "text": "<p>Constantly improving designs for better performance.</p>",
             "link_label": "",
             "link": ""
           }
@@ -177,14 +177,14 @@
         "heading_cGDqRK": {
           "type": "heading",
           "settings": {
-            "heading": "Arm Your Tools with the Best-in-Class Accessories!",
+            "heading": "Japan’s Engineering Excellence in Your Hands",
             "heading_size": "h1"
           }
         },
         "text_DXmnjC": {
           "type": "text",
           "settings": {
-            "text": "<p>Tatara accessories are built for those who expect more from their tools. More endurance. More efficiency.</p><p>Every attachment and component is rigorously tested under extreme conditions to ensure consistency and control. Equip your tools with the best and take on any task! </p>",
+            "text": "<p>Tatara is all about <strong>Japan-quality craftsmanship</strong>—inspired by the traditional <strong>Japanese furnace</strong> that symbolizes <strong>strength and precision</strong>, we create chisels, drill bits, circular saws, and more that are built to last and designed to deliver top performance in every project.</p>",
             "text_style": "body"
           }
         },
@@ -195,12 +195,21 @@
             "button_link": "#",
             "button_style_secondary": false
           }
+        },
+        "caption_MWQqNb": {
+          "type": "caption",
+          "settings": {
+            "caption": "💡 From chisels to drill bits, every Tatara tool undergoes rigorous testing to meet the highest standards of durability and performance.",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
         }
       },
       "block_order": [
         "heading_cGDqRK",
         "text_DXmnjC",
-        "button_Xp3WYX"
+        "button_Xp3WYX",
+        "caption_MWQqNb"
       ],
       "settings": {
         "height": "adapt",
