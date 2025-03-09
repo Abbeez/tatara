@@ -684,10 +684,11 @@
         "email_form_tPiHY9"
       ],
       "custom_css": [
-        ".newsletter {margin-bottom: 5rem;}"
+        ".newsletter {margin-bottom: 5rem;}",
+        ".newsletter__wrapper {border: 1px solid var(--custom-primary);}"
       ],
       "settings": {
-        "color_scheme": "scheme-5",
+        "color_scheme": "scheme-2",
         "full_width": false,
         "padding_top": 72,
         "padding_bottom": 72
