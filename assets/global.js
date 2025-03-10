@@ -1271,7 +1271,7 @@ if (!customElements.get('bulk-add')) {
 
 // Custom JS
 
-// Variants
+// Showing Variants & Barcodes
     document.addEventListener("DOMContentLoaded", function () {
       const barcodeElements = document.querySelectorAll("[data-barcode]");
       const variantSelect = document.querySelector("[name='id']");
@@ -1284,3 +1284,10 @@ if (!customElements.get('bulk-add')) {
         });
       }
     });
+
+// Removing Count on Filter
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll("label").forEach(label => {
+        label.innerHTML = label.innerHTML.replace(/\s*\(\d+\)/g, ""); // Removes (1), (2), etc.
+    });
+});
