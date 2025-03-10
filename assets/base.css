@@ -3633,5 +3633,17 @@ body{
     background: #222;
     color: #fff;
 }
-/* =========== Product Page ========*/
+/* =========== End Product Page ========*/
+
+
+
+/* Theme Collection */
+.collection-hero__title {
+  background: url('https://cdn.shopify.com/s/files/1/0742/3521/6090/files/Tatara_Category_Banner.png?v=1741573062') !important;
+  background-size:cover !important;
+  background-repeat:no-repeat !important;
+}
+/* end Theme collection */
+
+
 /* ================================= END CUSTOM CSS =========================== */
