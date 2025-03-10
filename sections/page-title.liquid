@@ -11,7 +11,7 @@
 
 <div
   class="theme-page--title"
-  style="{% if theme.bg %} background: url('{{ themebg | image_url }}');{% endif %}{% if titlecenter %} text-align:center; {% endif %}"
+  style="{% if themebg %} background: url('{{ themebg | image_url }}');{% endif %}{% if titlecenter %} text-align:center; {% endif %}"
 >
   <div class="page-width">
     <h1>{{ section.settings['theme-page--title'] | strip_html }}</h1>
