@@ -1267,3 +1267,20 @@ class BulkAdd extends HTMLElement {
 if (!customElements.get('bulk-add')) {
   customElements.define('bulk-add', BulkAdd);
 }
+
+
+// Custom JS
+
+// Variants
+    document.addEventListener("DOMContentLoaded", function () {
+      const barcodeElements = document.querySelectorAll("[data-barcode]");
+      const variantSelect = document.querySelector("[name='id']");
+
+      if (variantSelect) {
+        variantSelect.addEventListener("change", function () {
+          barcodeElements.forEach(el => el.style.display = "none");
+          const selectedVariant = document.querySelector(`[data-barcode='${this.value}']`);
+          if (selectedVariant) selectedVariant.style.display = "inline";
+        });
+      }
+    });
