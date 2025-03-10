@@ -9,18 +9,19 @@
  */
 {
   "sections": {
+    "page_title_4qtfLH": {
+      "type": "page-title",
+      "settings": {
+        "theme-page--title": "Tatara Japan-Quality Accessories",
+        "theme-title--center": true
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
-      }
-    },
-    "page_title_4qtfLH": {
-      "type": "page-title",
-      "settings": {
-        "theme-page--title": "Tatara Japan-Quality Accessories"
       }
     }
   },
