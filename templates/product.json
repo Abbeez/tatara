@@ -91,6 +91,10 @@
             "text": "<strong>Returns: </strong>30-days<strong> </strong>for unused items in original packaging with proof of purchase",
             "text_style": "body"
           }
+        },
+        "judge_me_reviews_all_reviews_text_NKEj4n": {
+          "type": "shopify://apps/judge-me-reviews/blocks/all_reviews_text/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
         }
       },
       "block_order": [
@@ -107,7 +111,8 @@
         "description",
         "custom_liquid_WhVGhB",
         "share",
-        "text_9Gzqz8"
+        "text_9Gzqz8",
+        "judge_me_reviews_all_reviews_text_NKEj4n"
       ],
       "settings": {
         "enable_sticky_info": false,
@@ -246,6 +251,7 @@
         "column-0",
         "column-1"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -292,7 +298,6 @@
       "block_order": [
         "judge_me_reviews_review_widget_epgAga"
       ],
-      "disabled": true,
       "settings": {
         "include_margins": true
       }
@@ -301,59 +306,6 @@
       "type": "apps",
       "settings": {
         "include_margins": true
-      }
-    },
-    "multicolumn_cLU6qm": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_iVF4bB": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_Vhm6KX": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_KeGKLm": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_iVF4bB",
-        "column_Vhm6KX",
-        "column_KeGKLm"
-      ],
-      "settings": {
-        "title": "Multicolumn",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "17415750157c0b3d79": {
@@ -382,7 +334,6 @@
     "related-products",
     "174062350518535838",
     "174062394008cbc55d",
-    "multicolumn_cLU6qm",
     "17415750157c0b3d79"
   ]
 }
