@@ -1,8 +1,9 @@
 {% assign themebg = section.settings['theme-page--background'] %}
+{% assign titlecenter = section.settings['theme-title--center'] %}
 
 <div
   class="theme-page--title"
-  style="{% if theme.bg != blank %}background: url('{{ themebg | image_url }}'){% endif %}"
+  style="{% if theme.bg != blank %}background: url('{{ themebg | image_url }}');{% endif %}{% if titlecenter %} text-align:center; {% endif %}"
 >
   <div class="page-width">
     <h1>{{ section.settings['theme-page--title'] | strip_html }}</h1>
@@ -18,6 +19,12 @@
       "id":"theme-page--title",
       "label": "Page Title",
       "default":"Tatara Japan-Quality Accessories"
+    },
+    {
+      "type":"checkbox",
+      "id":"theme-title--center",
+      "label": "Center the page title",
+      "default":false
     },
     {
       "type":"image_picker",
