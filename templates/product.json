@@ -85,15 +85,6 @@
             "share_label": "Share"
           }
         },
-        "collapsible_tab_hEGwEx": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "content": "",
-            "page": ""
-          }
-        },
         "text_9Gzqz8": {
           "type": "text",
           "settings": {
@@ -116,7 +107,6 @@
         "description",
         "custom_liquid_WhVGhB",
         "share",
-        "collapsible_tab_hEGwEx",
         "text_9Gzqz8"
       ],
       "settings": {
