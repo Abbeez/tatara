@@ -13,6 +13,7 @@
       "type": "page-title",
       "settings": {
         "theme-page--title": "{{ page.title }}",
+        "theme-page--description": "Tatara Japan-Quality Accessories, Shop Now!",
         "theme-title--center": true,
         "theme-page--background": "shopify://shop_images/Tatara_Category_Banner.png"
       }
@@ -24,10 +25,112 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "collapsible_content_L3Yjgr": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_89FXX9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are Tatara accessories made in Japan?",
+            "icon": "none",
+            "row_content": "<p>Tatara accessories are designed with Japanese precision and craftsmanship, ensuring top-tier quality and performance.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_wjbTG4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you have a physical store?",
+            "icon": "none",
+            "row_content": "<p>Currently, we operate online only. You can shop conveniently through this website and our upcoming Tiktok, Lazada and Shopee stores.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_T7xMbV": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer bulk or wholesale pricing?",
+            "icon": "none",
+            "row_content": "<p>Yes! If you're interested in bulk orders:<br/>💬 <strong>Use the Chatbox:</strong> Talk to our team instantly for pricing and details.<br/>📞 <strong>Ask Our Specialist:</strong> Get personalized recommendations for your bulk needs.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3PDgr4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Where can I buy Tatara accessories?",
+            "icon": "none",
+            "row_content": "<p>You can purchase our Japan-quality accessories through:<br/>🛍 <strong>Lazada: </strong><a href=\"https://www.lazada.com.ph/shop/tatara \" target=\"_blank\" title=\"https://www.lazada.com.ph/shop/tatara \">https://www.lazada.com.ph/shop/tatara </a><br/>🛍 <strong>Shopee:</strong> <a href=\"https://shopee.ph/shop/1473336486\" target=\"_blank\" title=\"https://shopee.ph/shop/1473336486\">https://shopee.ph/shop/1473336486</a><br/>🛍 <strong>TikTok Shop:</strong> <a href=\"https://vt.tiktok.com/ZSMbr595w/?page=TikTokShop\" target=\"_blank\" title=\"https://vt.tiktok.com/ZSMbr595w/?page=TikTokShop\">https://vt.tiktok.com/ZSMbr595w/?page=TikTokShop</a></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_mfJNAb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What payment methods do you accept?",
+            "icon": "none",
+            "row_content": "<p>We accept multiple payment options for your convenience:<br/>✅ <strong>Bank Transfers:</strong> BPI, China Bank, RCBC, UnionBank<br/>✅ <strong>E-Wallets:</strong> GCash, GrabPay, Maya<br/>✅ <strong>Credit/Debit Cards:</strong> Visa, Mastercard<br/>✅ <strong>Cash on Delivery (COD):</strong> Available on Lazada, Shopee, and TikTok Shop</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_WUF6eq": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long does shipping take?",
+            "icon": "none",
+            "row_content": "<p>🚚 <strong>Metro Manila / NCR:1-3 business days</strong><br/>🚚 <strong>Provincial Areas:3-7 business days</strong></p><p>Delivery times may vary depending on courier schedules, holidays, or weather conditions.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_bGehD8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How can I track my order?",
+            "icon": "none",
+            "row_content": "<p>You have two ways to track your order:<br/>💬 <strong>Use Our Chatbox:</strong> Simply open the chatbox on our website and enter your order details to get real-time tracking updates.<br/>🔑 <strong>Login to Your Account:</strong> Go to your order history to check your status.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_GJFBmp": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is your refund & return policy?",
+            "icon": "none",
+            "row_content": "<p>We aim for 100% satisfaction, but if you receive a defective or incorrect item, here's what to do:<br/>🔄 <strong>Returns & Exchanges:</strong> Must be requested within <strong>7 days of receiving the product</strong>.<br/>💰 <strong>Refunds:</strong> Processed once we verify the return. May take <strong>3-7 business days</strong> depending on your payment method.<br/>⚠️ <strong>Non-Returnable Items:</strong> Used, damaged due to mishandling, or items beyond the return period.</p><p><em>For refund requests, please contact our support team via chat</em></p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_89FXX9",
+        "collapsible_row_wjbTG4",
+        "collapsible_row_T7xMbV",
+        "collapsible_row_3PDgr4",
+        "collapsible_row_mfJNAb",
+        "collapsible_row_WUF6eq",
+        "collapsible_row_bGehD8",
+        "collapsible_row_GJFBmp"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-5a1384fa-81b6-4e02-a583-b6d030b3de97",
+        "container_color_scheme": "scheme-5a1384fa-81b6-4e02-a583-b6d030b3de97",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "page_title_4qtfLH",
-    "main"
+    "main",
+    "collapsible_content_L3Yjgr"
   ]
 }
