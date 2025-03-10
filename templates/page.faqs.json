@@ -75,8 +75,8 @@
       "settings": {
         "caption": "",
         "heading": "General",
-        "heading_size": "h1",
-        "heading_alignment": "center",
+        "heading_size": "h2",
+        "heading_alignment": "left",
         "layout": "none",
         "color_scheme": "scheme-5a1384fa-81b6-4e02-a583-b6d030b3de97",
         "container_color_scheme": "scheme-5a1384fa-81b6-4e02-a583-b6d030b3de97",
@@ -116,8 +116,8 @@
       "settings": {
         "caption": "",
         "heading": "Shipping & Tracking",
-        "heading_size": "h1",
-        "heading_alignment": "center",
+        "heading_size": "h2",
+        "heading_alignment": "left",
         "layout": "none",
         "color_scheme": "scheme-5a1384fa-81b6-4e02-a583-b6d030b3de97",
         "container_color_scheme": "scheme-5a1384fa-81b6-4e02-a583-b6d030b3de97",
@@ -147,8 +147,8 @@
       "settings": {
         "caption": "",
         "heading": "Returns & Refunds",
-        "heading_size": "h1",
-        "heading_alignment": "center",
+        "heading_size": "h2",
+        "heading_alignment": "left",
         "layout": "none",
         "color_scheme": "scheme-5a1384fa-81b6-4e02-a583-b6d030b3de97",
         "container_color_scheme": "scheme-5a1384fa-81b6-4e02-a583-b6d030b3de97",
@@ -178,8 +178,8 @@
       "settings": {
         "caption": "",
         "heading": "Bulk & Wholesale Orders",
-        "heading_size": "h1",
-        "heading_alignment": "center",
+        "heading_size": "h2",
+        "heading_alignment": "left",
         "layout": "none",
         "color_scheme": "scheme-5a1384fa-81b6-4e02-a583-b6d030b3de97",
         "container_color_scheme": "scheme-5a1384fa-81b6-4e02-a583-b6d030b3de97",
