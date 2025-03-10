@@ -12,7 +12,7 @@
     "page_title_4qtfLH": {
       "type": "page-title",
       "settings": {
-        "theme-page--title": "{{ page.title }}",
+        "theme-page--title": "Frequently Asked Questions",
         "theme-page--description": "Tatara Japan-Quality Accessories, Shop Now!",
         "theme-title--center": true,
         "theme-page--background": "shopify://shop_images/Tatara_Category_Banner.png"
@@ -26,10 +26,10 @@
         "padding_bottom": 28
       }
     },
-    "collapsible_content_L3Yjgr": {
+    "collapsible_content_XNVNdk": {
       "type": "collapsible-content",
       "blocks": {
-        "collapsible_row_89FXX9": {
+        "collapsible_row_KNJpMF": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Are Tatara accessories made in Japan?",
@@ -38,7 +38,7 @@
             "page": ""
           }
         },
-        "collapsible_row_wjbTG4": {
+        "collapsible_row_jyxbEt": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Do you have a physical store?",
@@ -47,16 +47,7 @@
             "page": ""
           }
         },
-        "collapsible_row_T7xMbV": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Do you offer bulk or wholesale pricing?",
-            "icon": "none",
-            "row_content": "<p>Yes! If you're interested in bulk orders:<br/>💬 <strong>Use the Chatbox:</strong> Talk to our team instantly for pricing and details.<br/>📞 <strong>Ask Our Specialist:</strong> Get personalized recommendations for your bulk needs.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_3PDgr4": {
+        "collapsible_row_bBTcXJ": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Where can I buy Tatara accessories?",
@@ -65,7 +56,7 @@
             "page": ""
           }
         },
-        "collapsible_row_mfJNAb": {
+        "collapsible_row_pGG8DK": {
           "type": "collapsible_row",
           "settings": {
             "heading": "What payment methods do you accept?",
@@ -73,7 +64,32 @@
             "row_content": "<p>We accept multiple payment options for your convenience:<br/>✅ <strong>Bank Transfers:</strong> BPI, China Bank, RCBC, UnionBank<br/>✅ <strong>E-Wallets:</strong> GCash, GrabPay, Maya<br/>✅ <strong>Credit/Debit Cards:</strong> Visa, Mastercard<br/>✅ <strong>Cash on Delivery (COD):</strong> Available on Lazada, Shopee, and TikTok Shop</p>",
             "page": ""
           }
-        },
+        }
+      },
+      "block_order": [
+        "collapsible_row_KNJpMF",
+        "collapsible_row_jyxbEt",
+        "collapsible_row_bBTcXJ",
+        "collapsible_row_pGG8DK"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "General",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-5a1384fa-81b6-4e02-a583-b6d030b3de97",
+        "container_color_scheme": "scheme-5a1384fa-81b6-4e02-a583-b6d030b3de97",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_L3Yjgr": {
+      "type": "collapsible-content",
+      "blocks": {
         "collapsible_row_WUF6eq": {
           "type": "collapsible_row",
           "settings": {
@@ -91,8 +107,31 @@
             "row_content": "<p>You have two ways to track your order:<br/>💬 <strong>Use Our Chatbox:</strong> Simply open the chatbox on our website and enter your order details to get real-time tracking updates.<br/>🔑 <strong>Login to Your Account:</strong> Go to your order history to check your status.</p>",
             "page": ""
           }
-        },
-        "collapsible_row_GJFBmp": {
+        }
+      },
+      "block_order": [
+        "collapsible_row_WUF6eq",
+        "collapsible_row_bGehD8"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Shipping & Tracking",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-5a1384fa-81b6-4e02-a583-b6d030b3de97",
+        "container_color_scheme": "scheme-5a1384fa-81b6-4e02-a583-b6d030b3de97",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_4fGWG9": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_kG3DLy": {
           "type": "collapsible_row",
           "settings": {
             "heading": "What is your refund & return policy?",
@@ -103,18 +142,42 @@
         }
       },
       "block_order": [
-        "collapsible_row_89FXX9",
-        "collapsible_row_wjbTG4",
-        "collapsible_row_T7xMbV",
-        "collapsible_row_3PDgr4",
-        "collapsible_row_mfJNAb",
-        "collapsible_row_WUF6eq",
-        "collapsible_row_bGehD8",
-        "collapsible_row_GJFBmp"
+        "collapsible_row_kG3DLy"
       ],
       "settings": {
         "caption": "",
-        "heading": "",
+        "heading": "Returns & Refunds",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-5a1384fa-81b6-4e02-a583-b6d030b3de97",
+        "container_color_scheme": "scheme-5a1384fa-81b6-4e02-a583-b6d030b3de97",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_BaAgKi": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_gmNjt6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer bulk or wholesale pricing?",
+            "icon": "none",
+            "row_content": "<p>Yes! If you're interested in bulk orders:<br/>💬 <strong>Use the Chatbox:</strong> Talk to our team instantly for pricing and details.<br/>📞 <strong>Ask Our Specialist:</strong> Get personalized recommendations for your bulk needs.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_gmNjt6"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Bulk & Wholesale Orders",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
@@ -131,6 +194,9 @@
   "order": [
     "page_title_4qtfLH",
     "main",
-    "collapsible_content_L3Yjgr"
+    "collapsible_content_XNVNdk",
+    "collapsible_content_L3Yjgr",
+    "collapsible_content_4fGWG9",
+    "collapsible_content_BaAgKi"
   ]
 }
