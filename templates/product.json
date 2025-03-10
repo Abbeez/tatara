@@ -91,10 +91,6 @@
             "text": "<strong>Returns: </strong>30-days<strong> </strong>for unused items in original packaging with proof of purchase",
             "text_style": "body"
           }
-        },
-        "judge_me_reviews_all_reviews_text_NKEj4n": {
-          "type": "shopify://apps/judge-me-reviews/blocks/all_reviews_text/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
         }
       },
       "block_order": [
@@ -111,8 +107,7 @@
         "description",
         "custom_liquid_WhVGhB",
         "share",
-        "text_9Gzqz8",
-        "judge_me_reviews_all_reviews_text_NKEj4n"
+        "text_9Gzqz8"
       ],
       "settings": {
         "enable_sticky_info": false,
@@ -302,12 +297,6 @@
         "include_margins": true
       }
     },
-    "174062394008cbc55d": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
     "17415750157c0b3d79": {
       "type": "apps",
       "blocks": {
@@ -324,16 +313,31 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "1741582652511f9bb3": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_all_reviews_text_67fbDT": {
+          "type": "shopify://apps/judge-me-reviews/blocks/all_reviews_text/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_all_reviews_text_67fbDT"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
+    "1741582652511f9bb3",
     "quick_order_list_7kxLRU",
     "custom_collection_grid_BciQTT",
     "multicolumn",
     "related-products",
     "174062350518535838",
-    "174062394008cbc55d",
     "17415750157c0b3d79"
   ]
 }
