@@ -124,6 +124,7 @@
         "column_bErfUW": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Tatara_-_Shopee.png",
             "title": "<strong>Shopee</strong>",
             "text": "<p>Check out our products and see customer reviews.</p>",
             "link_label": "Follow Us",
@@ -133,6 +134,7 @@
         "column_NdJ97P": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Tatara_-_Lazada.png",
             "title": "<strong>Lazada</strong>",
             "text": "<p>Find our full range of accessories online.</p>",
             "link_label": "Follow Us",
@@ -142,6 +144,7 @@
         "column_NRfiap": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Tatara_-_Tiktok.png",
             "title": "TikTok Shop",
             "text": "<p>Catch live showcases and exclusive deals.</p>",
             "link_label": "Follow Us",
