@@ -12,7 +12,7 @@
     "page_title_4qtfLH": {
       "type": "page-title",
       "settings": {
-        "theme-page--title": "Tatara Japan-Quality Accessories",
+        "theme-page--title": "{{ page.title }}",
         "theme-title--center": true
       }
     },
