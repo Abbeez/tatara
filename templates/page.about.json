@@ -158,7 +158,7 @@
         "column_NRfiap"
       ],
       "custom_css": [
-        ".multicolumn-card__image-wrapper--third-width {width: 50px;}",
+        ".multicolumn-card__image-wrapper--third-width {width: 100px;}",
         ".multicolumn {background: var(--custom-primary);}",
         ".multicolumn ul li > div {border: 1px solid #fff;}",
         ".multicolumn .title-wrapper-with-link h2 {width: 100% !important; text-align: center; color: #fff;}",
@@ -167,7 +167,7 @@
       "settings": {
         "title": "Where You Can Find Tatara",
         "heading_size": "h1",
-        "image_width": "full",
+        "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "center",
