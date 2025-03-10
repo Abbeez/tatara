@@ -145,6 +145,10 @@
         "column_NdJ97P",
         "column_NRfiap"
       ],
+      "custom_css": [
+        ".multicolumn-card__image-wrapper--third-width {width: 50px;}",
+        ".multicolumn ul li > div {border: 1px solid #fff;}"
+      ],
       "settings": {
         "title": "Where You Can Find Tatara",
         "heading_size": "h1",
