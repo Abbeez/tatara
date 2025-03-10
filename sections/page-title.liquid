@@ -4,7 +4,9 @@
   class="theme-page--title"
   style="{% if theme.bg != blank %}background: url('{{ themebg | image_url }}'){% endif %}"
 >
-  <h1>{{ section.settings['theme-page--title'] | strip_html }}</h1>
+  <div class="page-width">
+    <h1>{{ section.settings['theme-page--title'] | strip_html }}</h1>
+  </div>
 </div>
 
 {% schema %}
