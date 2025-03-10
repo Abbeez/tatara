@@ -17,40 +17,46 @@
         "padding_bottom": 28
       }
     },
-    "image_banner_3hJGdw": {
-      "type": "image-banner",
+    "rich_text_f9GqAc": {
+      "type": "rich-text",
       "blocks": {
-        "heading_8yyWfe": {
+        "heading_d8VUUV": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
           }
         },
-        "text_brK3Hr": {
+        "text_j3zXga": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_6LKRi7": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading_8yyWfe",
-        "text_brK3Hr"
+        "heading_d8VUUV",
+        "text_j3zXga",
+        "button_6LKRi7"
       ],
       "settings": {
-        "image": "shopify://shop_images/hand-tools-stored-in-wooden-holder.jpg",
-        "image_overlay_opacity": 60,
-        "image_height": "small",
-        "desktop_content_position": "middle-left",
-        "show_text_box": false,
-        "desktop_content_alignment": "left",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "scheme-5",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
     "image_with_text_TNgdby": {
@@ -95,48 +101,6 @@
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
-    "rich_text_f9GqAc": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_d8VUUV": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text_j3zXga": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "button_6LKRi7": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_d8VUUV",
-        "text_j3zXga",
-        "button_6LKRi7"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
         "padding_top": 60,
         "padding_bottom": 60
       }
@@ -329,9 +293,8 @@
   },
   "order": [
     "main",
-    "image_banner_3hJGdw",
-    "image_with_text_TNgdby",
     "rich_text_f9GqAc",
+    "image_with_text_TNgdby",
     "image_with_text_hbhCbw",
     "image_with_text_rbUCAd",
     "image_with_text_BkF4cx",
