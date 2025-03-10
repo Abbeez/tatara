@@ -86,12 +86,21 @@
             "text": "<p>Tatara products go through <strong>strict quality checks</strong> to ensure they meet the demands of everyday work. Whether you’re cutting, drilling, or crafting, our accessories are made to deliver <strong>consistent and lasting performance</strong> in every task.</p>",
             "text_style": "body"
           }
+        },
+        "button_djCwe6": {
+          "type": "button",
+          "settings": {
+            "button_label": "Browse Tatara Products",
+            "button_link": "shopify://collections/all",
+            "button_style_secondary": false
+          }
         }
       },
       "block_order": [
         "caption_tbNYLG",
         "heading_3d8Qjr",
-        "text_fHQ7Rg"
+        "text_fHQ7Rg",
+        "button_djCwe6"
       ],
       "settings": {
         "image": "shopify://shop_images/About_Tatara_2.png",
