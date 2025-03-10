@@ -58,7 +58,7 @@
         "custom_liquid_NtbE3E": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.metafields.custom.short-description != blank %}\n        <div class=\"short-description\">\n                {{ product.metafields.custom.short-description | metafield_tag }}\n        </div>\n        {% endif %}"
+            "custom_liquid": "{% if product.metafields.custom.short_description != blank %}\n        <div class=\"short-description\">\n                {{ product.metafields.custom.short_description | metafield_tag }}\n        </div>\n        {% endif %}"
           }
         },
         "variant_picker": {
