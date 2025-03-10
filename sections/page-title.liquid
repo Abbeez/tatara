@@ -4,6 +4,8 @@
       background-repeat:no-repeat !important;
       padding:3rem;
     }
+
+  .theme-page--title h1 {margin:0;}
 {% endstyle %}
 
 {% assign themebg = section.settings['theme-page--background'] %}
@@ -15,8 +17,8 @@
 >
   <div class="page-width">
     <div class="theme-page--header">
-      <h1>{{ section.settings['theme-page--title'] | strip_html }}</h1>
       <p>{{ section.settings['theme-page--description'] | strip_html }}</p>
+      <h1>{{ section.settings['theme-page--title'] | strip_html }}</h1>
     </div>
   </div>
 </div>
