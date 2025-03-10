@@ -55,6 +55,12 @@
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
         },
+        "custom_liquid_NtbE3E": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.metafields.custom.short-description != blank %}\n        <div class=\"short-description\">\n                {{ product.metafields.custom.short-description | metafield_tag }}\n        </div>\n        {% endif %}"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -125,6 +131,7 @@
         "title",
         "price",
         "judge_me_reviews_preview_badge_knYH3p",
+        "custom_liquid_NtbE3E",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
