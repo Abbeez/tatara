@@ -135,6 +135,91 @@
         "padding_bottom": 36
       }
     },
+    "custom_collection_grid_BciQTT": {
+      "type": "custom-collection-grid",
+      "blocks": {
+        "collections_qWYF9g": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "blades"
+          }
+        },
+        "collections_zkiUaq": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "brush"
+          }
+        },
+        "collections_9Rcgwn": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "chisel"
+          }
+        },
+        "collections_373QtK": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "cutter"
+          }
+        },
+        "collections_J6Jk6y": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "disc"
+          }
+        },
+        "collections_FcwndF": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "drill-bit"
+          }
+        },
+        "collections_nJkVfV": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "router"
+          }
+        },
+        "collections_t79czV": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "sanding"
+          }
+        },
+        "collections_iVqH6i": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "sds"
+          }
+        },
+        "collections_83WJYz": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "brush"
+          }
+        }
+      },
+      "block_order": [
+        "collections_qWYF9g",
+        "collections_zkiUaq",
+        "collections_9Rcgwn",
+        "collections_373QtK",
+        "collections_J6Jk6y",
+        "collections_FcwndF",
+        "collections_nJkVfV",
+        "collections_t79czV",
+        "collections_iVqH6i",
+        "collections_83WJYz"
+      ],
+      "settings": {
+        "short_description": "Tatara isn’t just another brand—it’s a guarantee of power, precision, and durability.",
+        "heading": "Explore Other Collections",
+        "cta_text": "Shop Now & Upgrade Your Toolkit",
+        "cta_link": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -142,7 +227,7 @@
           "type": "column",
           "settings": {
             "title": "Free Shipping",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Free shipping is only available on selected areas only</p>",
             "link_label": "",
             "link": ""
           }
@@ -207,6 +292,7 @@
       "block_order": [
         "judge_me_reviews_review_widget_epgAga"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": true
       }
@@ -216,14 +302,87 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "multicolumn_cLU6qm": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_iVF4bB": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Vhm6KX": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KeGKLm": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_iVF4bB",
+        "column_Vhm6KX",
+        "column_KeGKLm"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "17415750157c0b3d79": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_iPf7B6": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_iPf7B6"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "quick_order_list_7kxLRU",
+    "custom_collection_grid_BciQTT",
     "multicolumn",
     "related-products",
     "174062350518535838",
-    "174062394008cbc55d"
+    "174062394008cbc55d",
+    "multicolumn_cLU6qm",
+    "17415750157c0b3d79"
   ]
 }
