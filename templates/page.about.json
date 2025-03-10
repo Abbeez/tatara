@@ -148,52 +148,6 @@
         "padding_bottom": 60
       }
     },
-    "image_with_text_rbUCAd": {
-      "type": "image-with-text",
-      "blocks": {
-        "caption_N34Tpa": {
-          "type": "caption",
-          "settings": {
-            "caption": "Add a tagline",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "heading_DCUzd7": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "text_tfCzgt": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "caption_N34Tpa",
-        "heading_DCUzd7",
-        "text_tfCzgt"
-      ],
-      "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
     "image_with_text_BkF4cx": {
       "type": "image-with-text",
       "blocks": {
@@ -242,6 +196,73 @@
     },
     "custom_collection_grid_Mh8HKJ": {
       "type": "custom-collection-grid",
+      "blocks": {
+        "collections_78Whe4": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "blades"
+          }
+        },
+        "collections_gzP8XU": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "brush"
+          }
+        },
+        "collections_xHP7we": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "chisel"
+          }
+        },
+        "collections_6b99Mr": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "cutter"
+          }
+        },
+        "collections_CEVXFx": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "disc"
+          }
+        },
+        "collections_GeA6Fn": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "drill-bit"
+          }
+        },
+        "collections_7w7EfU": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "router"
+          }
+        },
+        "collections_wxjrp9": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "sanding"
+          }
+        },
+        "collections_JJq4HX": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "sds"
+          }
+        }
+      },
+      "block_order": [
+        "collections_78Whe4",
+        "collections_gzP8XU",
+        "collections_xHP7we",
+        "collections_6b99Mr",
+        "collections_CEVXFx",
+        "collections_GeA6Fn",
+        "collections_7w7EfU",
+        "collections_wxjrp9",
+        "collections_JJq4HX"
+      ],
       "settings": {
         "short_description": "Tatara isn’t just another brand—it’s a guarantee of power, precision, and durability.",
         "heading": "Featured Japan-Quality Accessories",
@@ -257,7 +278,6 @@
     "rich_text_f9GqAc",
     "image_with_text_TNgdby",
     "image_with_text_hbhCbw",
-    "image_with_text_rbUCAd",
     "image_with_text_BkF4cx",
     "custom_collection_grid_Mh8HKJ"
   ]
