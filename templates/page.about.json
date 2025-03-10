@@ -125,8 +125,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Tatara_-_Shopee.png",
-            "title": "<strong>Shopee</strong>",
-            "text": "<p>Check out our products and see customer reviews.</p>",
+            "title": "",
+            "text": "<p>Check out our products and reviews.</p>",
             "link_label": "Follow Us",
             "link": "https://shopee.ph/shop/1473336486"
           }
@@ -135,7 +135,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Tatara_-_Lazada.png",
-            "title": "<strong>Lazada</strong>",
+            "title": "",
             "text": "<p>Find our full range of accessories online.</p>",
             "link_label": "Follow Us",
             "link": "https://www.lazada.com.ph/shop/tatara"
@@ -145,7 +145,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Tatara_-_Tiktok.png",
-            "title": "TikTok Shop",
+            "title": "",
             "text": "<p>Catch live showcases and exclusive deals.</p>",
             "link_label": "Follow Us",
             "link": "https://vt.tiktok.com/ZSMbr595w/?page=TikTokShop"
@@ -160,6 +160,7 @@
       "custom_css": [
         ".multicolumn-card__image-wrapper--third-width {width: 100px;}",
         ".multicolumn {background: var(--custom-primary);}",
+        ".multicolumn-card {background: #fff;}",
         ".multicolumn ul li > div {border: 1px solid #fff;}",
         ".multicolumn .title-wrapper-with-link h2 {width: 100% !important; text-align: center; color: #fff;}",
         ".multicolumn-card__info {background: #ffff; color: #888 !important;}"
