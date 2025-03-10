@@ -13,7 +13,8 @@
       "type": "page-title",
       "settings": {
         "theme-page--title": "{{ page.title }}",
-        "theme-title--center": true
+        "theme-title--center": true,
+        "theme-page--background": "shopify://shop_images/Tatara_Category_Banner.png"
       }
     },
     "main": {
