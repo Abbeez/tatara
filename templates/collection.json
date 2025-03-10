@@ -11,10 +11,20 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
         "color_scheme": "scheme-1"
+      }
+    },
+    "page_title_RnFBbr": {
+      "type": "page-title",
+      "settings": {
+        "theme-page--title": "{{ collection.title }}",
+        "theme-page--description": "Tatara Japan-Quality Accessories, Shop Now!",
+        "theme-title--center": false,
+        "theme-page--background": "shopify://shop_images/Tatara_Category_Banner.png"
       }
     },
     "product-grid": {
@@ -40,6 +50,7 @@
   },
   "order": [
     "banner",
+    "page_title_RnFBbr",
     "product-grid"
   ]
 }
