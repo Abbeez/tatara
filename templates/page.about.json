@@ -20,40 +20,37 @@
     "rich_text_f9GqAc": {
       "type": "rich-text",
       "blocks": {
+        "caption_W8Cfa8": {
+          "type": "caption",
+          "settings": {
+            "caption": "About Tatara",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
         "heading_d8VUUV": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Japan-Quality Accessories",
             "heading_size": "h1"
           }
         },
         "text_j3zXga": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "button_6LKRi7": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "<p>At <strong>Tatara</strong>, we are committed to delivering <strong>Japan-quality accessories</strong> built for professionals and enthusiasts alike. Whether you're working on woodworking, metalworking, or general construction, our range of <strong>chisels, drill bits, circular saws, and more</strong> is designed to provide <strong>precision and durability in every cut, carve, and drill.</strong></p>"
           }
         }
       },
       "block_order": [
+        "caption_W8Cfa8",
         "heading_d8VUUV",
-        "text_j3zXga",
-        "button_6LKRi7"
+        "text_j3zXga"
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "scheme-5",
+        "color_scheme": "scheme-5a1384fa-81b6-4e02-a583-b6d030b3de97",
         "full_width": true,
         "padding_top": 60,
         "padding_bottom": 60
@@ -243,51 +240,15 @@
         "padding_bottom": 60
       }
     },
-    "collection_list_tdLzFt": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_xpLNJf": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "featured_collection_D6AXbi": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "featured_collection_7cQMnj": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "featured_collection_9TJEAL": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_xpLNJf",
-        "featured_collection_D6AXbi",
-        "featured_collection_7cQMnj",
-        "featured_collection_9TJEAL"
-      ],
+    "custom_collection_grid_Mh8HKJ": {
+      "type": "custom-collection-grid",
       "settings": {
-        "title": "Collections",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 4,
-        "color_scheme": "",
-        "show_view_all": true,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "short_description": "Tatara isn’t just another brand—it’s a guarantee of power, precision, and durability.",
+        "heading": "Featured Japan-Quality Accessories",
+        "cta_text": "Shop Now & Upgrade Your Toolkit",
+        "cta_link": "",
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     }
   },
@@ -298,6 +259,6 @@
     "image_with_text_hbhCbw",
     "image_with_text_rbUCAd",
     "image_with_text_BkF4cx",
-    "collection_list_tdLzFt"
+    "custom_collection_grid_Mh8HKJ"
   ]
 }
