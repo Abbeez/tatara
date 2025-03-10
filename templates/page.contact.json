@@ -50,7 +50,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-5a1384fa-81b6-4e02-a583-b6d030b3de97",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -61,68 +61,7 @@
       "settings": {
         "heading": "",
         "heading_size": "h1",
-        "color_scheme": "scheme-dd6a0d88-fe2e-4ee0-8bdf-ed8dec422472",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "collapsible_content_yVtgEN": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_wtmjdn": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_qbztWH": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_ckmLni": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_gcdARa": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_wtmjdn",
-        "collapsible_row_qbztWH",
-        "collapsible_row_ckmLni",
-        "collapsible_row_gcdARa"
-      ],
-      "settings": {
-        "caption": "Frequently Asked Questions (FAQ)",
-        "heading": "Got Questions? We’ve Got Answers!",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
+        "color_scheme": "scheme-5a1384fa-81b6-4e02-a583-b6d030b3de97",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -131,7 +70,6 @@
   "order": [
     "main",
     "rich_text_XXWWy3",
-    "form",
-    "collapsible_content_yVtgEN"
+    "form"
   ]
 }
