@@ -156,8 +156,9 @@
       ],
       "custom_css": [
         ".multicolumn-card__image-wrapper--third-width {width: 50px;}",
+        ".multicolumn {background: var(--custom-primary);}",
         ".multicolumn ul li > div {border: 1px solid #fff;}",
-        ".multicolumn .title-wrapper-with-link h2 {width: 100% !important; text-align: center;}",
+        ".multicolumn .title-wrapper-with-link h2 {width: 100% !important; text-align: center; color: #fff;}",
         ".multicolumn-card__info {background: #ffff; color: #888 !important;}"
       ],
       "settings": {
@@ -170,8 +171,8 @@
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-5",
-        "columns_mobile": "1",
+        "color_scheme": "scheme-b246e394-bd46-4588-8921-74370a398356",
+        "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 56
