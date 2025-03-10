@@ -179,14 +179,6 @@
     "image_with_text_BkF4cx": {
       "type": "image-with-text",
       "blocks": {
-        "caption_UiUYjR": {
-          "type": "caption",
-          "settings": {
-            "caption": "Offering Bulk Orders",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
         "heading_V98NiP": {
           "type": "heading",
           "settings": {
@@ -197,7 +189,7 @@
         "text_YfVj93": {
           "type": "text",
           "settings": {
-            "text": "<p>Looking for larger quantities? We offer <strong>special pricing and support</strong> for bulk and wholesale orders. <strong>Chat with us</strong> or contact our specialist for more details.</p>",
+            "text": "<p>Tatara offers <strong>bulk and wholesale solutions</strong> for businesses, contractors, and workshop owners who need reliable accessories in larger quantities.</p>",
             "text_style": "body"
           }
         },
@@ -208,13 +200,21 @@
             "button_link": "shopify://pages/contact",
             "button_style_secondary": false
           }
+        },
+        "caption_UiUYjR": {
+          "type": "caption",
+          "settings": {
+            "caption": "For bulk orders and wholesale inquiries, reach out to us via chat or contact our specialist for personalized assistance.",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
         }
       },
       "block_order": [
-        "caption_UiUYjR",
         "heading_V98NiP",
         "text_YfVj93",
-        "button_rFeAQX"
+        "button_rFeAQX",
+        "caption_UiUYjR"
       ],
       "settings": {
         "image": "shopify://shop_images/Tatara_Bulk_Orders.png",
