@@ -176,8 +176,8 @@
         "button_label": "",
         "button_link": "",
         "color_scheme": "scheme-b246e394-bd46-4588-8921-74370a398356",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 56
       }
