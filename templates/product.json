@@ -44,6 +44,12 @@
             "swatch_shape": "circle"
           }
         },
+        "custom_liquid_NGgXii": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.variants.size > 1 %}\n  <div class=\"barcode-list\">\n    {% for variant in product.variants %}\n      {% if variant.barcode != blank %}\n        <span data-barcode=\"{{ variant.id }}\" {% if forloop.first %}style=\"display:inline;\"{% else %}style=\"display:none;\"{% endif %}>\n          <strong>Variant:</strong>{{ variant.title }} - <strong>Item Code:</strong> {{ variant.barcode }}\n        </span>\n      {% endif %}\n    {% endfor %}\n  </div>\n\n  {% else %}\n  {% if product.variants.first.barcode != blank %}\n    <div class=\"barcode-list\">\n      <span><strong>Item Code:</strong> {{ product.variants.first.barcode }}</span>\n    </div>\n  {% endif %}\n{% endif %}\n\n<style>\n  .barcode-list {\n    display: flex;\n    flex-wrap: wrap;\n    gap: 10px;\n    align-items: center;\n    font-size: 14px;\n  }\n  .barcode-list span {\n    border-radius: 5px;\n  }\n</style>"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {}
@@ -58,7 +64,7 @@
         "custom_liquid_7WiVN9": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n        .tatara_catalog {\n          display: flex;\n          align-items: center;\n          gap: 10px;\n          flex-wrap: wrap;\n        }         \n        .tatara_catalog ul {\n            display: flex;\n            flex-wrap: wrap;\n            gap: 5px;\n            margin-top:10px;\n            padding:0;\n        }\n\n       \n        .tatara_catalog ul li {\n          list-style-type: none;\n        }\n        \n        .tatara_catalog ul li a {\n            display: inline-block;\n            padding: 2px 8px;\n            border: 1px solid #ccc;\n            border-radius: 4px;\n            background: #f9f9f9;\n            font-size:14px;\n            text-decoration:none;\n            color:var(--custom-primary)\n        }\n        \n        .tatara_catalog ul li:nth-child(even) a {\n            background: #f8ce06;\n        }\n        </style>\n        \n        {% if product.metafields.tatara.catalog != blank %}\n        \n          {% assign tatara_catalog = product.metafields.tatara.catalog.value %}\n        \n          <div class=\"tatara_catalog\">\n            <p style=\"font-weight:600;\">Catalog</p>\n            <ul>\n                <li>\n                  <a href=\"{{ tatara_catalog.file | file_url }}\" target=\"_blank\">\n                    {{ tatara_catalog.title }}\n                  </a>\n                </li>\n            </ul>\n          </div>\n        {% endif %}"
+            "custom_liquid": "<style>\n        .tatara_catalog {\n          display: flex;\n          align-items: center;\n          gap: 10px;\n          flex-wrap: wrap;\n        }         \n        .tatara_catalog ul {\n            display: flex;\n            flex-wrap: wrap;\n            gap: 5px;\n            margin-top:10px;\n            padding:0;\n        }\n\n       \n        .tatara_catalog ul li {\n          list-style-type: none;\n        }\n        \n        .tatara_catalog ul li a {\n            display: inline-block;\n            padding: 2px 8px;\n            border: 1px solid var(--custom-primary);\n            border-radius: 4px;\n            background: var(--custom-primary);\n            font-size:14px;\n            text-decoration:none;\n            color:#121212;        }\n        \n        .tatara_catalog ul li:nth-child(even) a {\n            background: #f8ce06;\n        }\n        </style>\n        \n        {% if product.metafields.tatara.catalog != blank %}\n        \n          {% assign tatara_catalog = product.metafields.tatara.catalog.value %}\n        \n          <div class=\"tatara_catalog\">\n            <p style=\"font-weight:600;\">Catalog</p>\n            <ul>\n                <li>\n                  <a href=\"{{ tatara_catalog.file | file_url }}\" target=\"_blank\">\n                    {{ tatara_catalog.title }}\n                  </a>\n                </li>\n            </ul>\n          </div>\n        {% endif %}"
           }
         },
         "text_Yg9cpm": {
@@ -71,12 +77,6 @@
         "description": {
           "type": "description",
           "settings": {}
-        },
-        "custom_liquid_NGgXii": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% if product.variants.size > 1 %}\n  <div class=\"barcode-list\">\n    {% for variant in product.variants %}\n      {% if variant.barcode != blank %}\n        <span data-barcode=\"{{ variant.id }}\" {% if forloop.first %}style=\"display:inline;\"{% else %}style=\"display:none;\"{% endif %}>\n          <strong>Variant:</strong>{{ variant.title }} - <strong>Item Code:</strong> {{ variant.barcode }}\n        </span>\n      {% endif %}\n    {% endfor %}\n  </div>\n\n  {% else %}\n  {% if product.variants.first.barcode != blank %}\n    <div class=\"barcode-list\">\n      <span><strong>Item Code:</strong> {{ product.variants.first.barcode }}</span>\n    </div>\n  {% endif %}\n{% endif %}\n\n<style>\n  .barcode-list {\n    display: flex;\n    flex-wrap: wrap;\n    gap: 10px;\n    align-items: center;\n    font-size: 14px;\n  }\n  .barcode-list span {\n    background: #f4f4f4;\n    padding: 5px 10px;\n    border-radius: 5px;\n    border: 1px solid #ddd;\n  }\n</style>"
-          }
         },
         "text_9Gzqz8": {
           "type": "text",
@@ -99,12 +99,12 @@
         "judge_me_reviews_preview_badge_knYH3p",
         "custom_liquid_NtbE3E",
         "variant_picker",
+        "custom_liquid_NGgXii",
         "quantity_selector",
         "buy_buttons",
         "custom_liquid_7WiVN9",
         "text_Yg9cpm",
         "description",
-        "custom_liquid_NGgXii",
         "text_9Gzqz8",
         "share"
       ],
