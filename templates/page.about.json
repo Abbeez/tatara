@@ -56,6 +56,12 @@
         "padding_bottom": 60
       }
     },
+    "static_image_TCBTGq": {
+      "type": "static-image",
+      "settings": {
+        "static-image": "shopify://shop_images/Tatara_Product_Showcase.png"
+      }
+    },
     "image_with_text_TNgdby": {
       "type": "image-with-text",
       "blocks": {
@@ -276,6 +282,7 @@
   "order": [
     "main",
     "rich_text_f9GqAc",
+    "static_image_TCBTGq",
     "image_with_text_TNgdby",
     "image_with_text_hbhCbw",
     "image_with_text_BkF4cx",
