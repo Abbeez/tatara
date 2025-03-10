@@ -14,7 +14,10 @@
   style="{% if themebg %} background: url('{{ themebg | image_url }}');{% endif %}{% if titlecenter %} text-align:center; {% endif %}"
 >
   <div class="page-width">
-    <h1>{{ section.settings['theme-page--title'] | strip_html }}</h1>
+    <div class="theme-page--header">
+      <h1>{{ section.settings['theme-page--title'] | strip_html }}</h1>
+      <p>{{ section.settings['theme-page--description'] | strip_html }}</p>
+    </div>
   </div>
 </div>
 
@@ -25,8 +28,14 @@
     {
       "type":"text",
       "id":"theme-page--title",
-      "label": "Page Title",
+      "label": "Page Header Title",
       "default":"Tatara Japan-Quality Accessories"
+    },
+    {
+      "type":"inline_richtext",
+      "id":"theme-page--description",
+      "label": "Page Header Description",
+      "default":"Tatara Japan-Quality Accessories, Shop Now!"
     },
     {
       "type":"checkbox",
