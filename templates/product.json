@@ -85,6 +85,12 @@
             "share_label": "Share"
           }
         },
+        "custom_liquid_NGgXii": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.variants.size > 1 %}\n  <div class=\"barcode-list\">\n    {% for variant in product.variants %}\n      {% if variant.barcode != blank %}\n        <span data-barcode=\"{{ variant.id }}\" {% if forloop.first %}style=\"display:inline;\"{% else %}style=\"display:none;\"{% endif %}>\n          <strong>{{ variant.title }}:</strong> {{ variant.barcode }}\n        </span>\n      {% endif %}\n    {% endfor %}\n  </div>\n\n  {% else %}\n  {% if product.variants.first.barcode != blank %}\n    <div class=\"barcode-list\">\n      <span><strong>Barcode:</strong> {{ product.variants.first.barcode }}</span>\n    </div>\n  {% endif %}\n{% endif %}\n\n<style>\n  .barcode-list {\n    display: flex;\n    flex-wrap: wrap;\n    gap: 10px;\n    align-items: center;\n    font-size: 14px;\n  }\n  .barcode-list span {\n    background: #f4f4f4;\n    padding: 5px 10px;\n    border-radius: 5px;\n    border: 1px solid #ddd;\n  }\n</style>"
+          }
+        },
         "text_9Gzqz8": {
           "type": "text",
           "settings": {
@@ -107,6 +113,7 @@
         "description",
         "custom_liquid_WhVGhB",
         "share",
+        "custom_liquid_NGgXii",
         "text_9Gzqz8"
       ],
       "settings": {
