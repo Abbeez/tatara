@@ -3642,9 +3642,11 @@ body{
   background: url('https://cdn.shopify.com/s/files/1/0742/3521/6090/files/Tatara_Category_Banner.png?v=1741573062') !important;
   background-size:cover !important;
   background-repeat:no-repeat !important;
-  color:#fff;
 }
-/* end Theme collection */
+
+.collection-hero__title{
+ color:#fff;
+}
 
 
 /* ================================= END CUSTOM CSS =========================== */
