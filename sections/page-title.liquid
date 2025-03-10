@@ -1,6 +1,32 @@
+{% assign themebg = section.settings['theme-page--background'] %}
+
+<div
+  class="theme-page--title"
+  style="{% if theme.bg != blank %}background: url('{{ themebg | image_url }}'){% endif %}"
+>
+  <h1>{{ section.settings['theme-page--title'] | strip_html }}</h1>
+</div>
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Page Title",
+  "settings": [
+    {
+      "type":"text",
+      "id":"theme-page--title",
+      "label": "Page Title",
+      "default":"Tatara Japan-Quality Accessories"
+    },
+    {
+      "type":"image_picker",
+      "label": "Page Background",
+      "id":"theme-page--background"
+    }
+  ],
+  "presets":[
+    {
+      "name":"Page Title"
+    }
+  ]
+}
 {% endschema %}
