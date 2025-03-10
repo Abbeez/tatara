@@ -1,6 +1,28 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{% style %}
+  .static-iamge--section,.static-iamge--section img  {
+    width:100%;
+
   }
+{% endstyle %}
+
+<div class="static-image--section">
+  <img src="{{ section.settings.static-image | image_url }}">
+</div>
+
+{% schema %}
+{
+  "name": "Static Image",
+  "settings": [
+    {
+      "type":"image_picker",
+      "id":"static-image",
+      "label":"Add Static Background"
+    }
+  ],
+  "presets":[
+    {
+      "name":"Static Image"
+    }
+  ]
+}
 {% endschema %}
