@@ -291,35 +291,32 @@
         "padding_bottom": 64
       }
     },
-    "featured_collection": {
+    "featured_collection_epKtaW": {
       "type": "featured-collection",
-      "custom_css": [
-        ".collection__title {text-align: center;}"
-      ],
       "settings": {
-        "title": "Tatara's Featured Products",
+        "title": "Featured collection",
         "heading_size": "h1",
         "description": "",
-        "show_description": true,
+        "show_description": false,
         "description_style": "body",
         "collection": "drill-bit",
         "products_to_show": 5,
-        "columns_desktop": 5,
+        "columns_desktop": 6,
         "full_width": false,
-        "show_view_all": true,
+        "show_view_all": false,
         "view_all_style": "link",
         "enable_desktop_slider": false,
-        "color_scheme": "scheme-b246e394-bd46-4588-8921-74370a398356",
+        "color_scheme": "",
         "image_ratio": "adapt",
         "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": true,
+        "show_secondary_image": false,
+        "show_vendor": false,
         "show_rating": false,
-        "quick_add": "standard",
+        "quick_add": "none",
         "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 80,
-        "padding_bottom": 80
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "image_with_text_PCFhm7": {
@@ -796,7 +793,7 @@
     "multicolumn_EM3Ejm",
     "image_with_text_JqJRnX",
     "rich_text_kgArK9",
-    "featured_collection",
+    "featured_collection_epKtaW",
     "image_with_text_PCFhm7",
     "brand_comparison_3PQbdt",
     "image_with_text_QdHXHV",
