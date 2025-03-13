@@ -225,8 +225,8 @@
 
     <div class="header__icons{% if section.settings.enable_country_selector or section.settings.enable_language_selector %} header__icons--localization header-localization{% endif %}">
       {% style %}@media (max-width: 1024px) {.theme-bulk-order {display:none;cursor:pointer;}}{% endstyle %}
-      <a href="" class="theme-bulk-order header__menu-item link shopify-trigger--inbox" style="margin-right:5px;"
-        >Buy in Bulk or Wholesale Orders</a
+      <span class="theme-bulk-order header__menu-item link shopify-trigger--inbox" style="margin-right:5px;"
+        >Buy in Bulk or Wholesale Orders</span
       >
       <div class="desktop-localization-wrapper">
         {%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
