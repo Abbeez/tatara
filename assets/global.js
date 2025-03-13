@@ -1271,6 +1271,30 @@ if (!customElements.get('bulk-add')) {
 
 // Custom JS
 
+// CUSTOM Js
+
+// Triggers Shopify Inbox from multiple elements
+document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".shopify-trigger--inbox").forEach(function (trigger) {
+        trigger.addEventListener("click", function () {
+            let chatWidget = document.querySelector("inbox-online-store-chat");
+
+            if (chatWidget && chatWidget.shadowRoot) {
+                let chatButton = chatWidget.shadowRoot.querySelector("button"); // Try to find the button inside
+                if (chatButton) {
+                    chatButton.click();
+                } else {
+                    console.error("Chat button inside Shadow DOM not found.");
+                }
+            } else {
+                console.error("Shopify Inbox chat widget not found.");
+            }
+        });
+    });
+});
+
+// ==============================
+
 // Showing Variants & Barcodes
     document.addEventListener("DOMContentLoaded", function () {
       const barcodeElements = document.querySelectorAll("[data-barcode]");
