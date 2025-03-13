@@ -291,6 +291,37 @@
         "padding_bottom": 64
       }
     },
+    "featured_collection": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".collection__title {text-align: center;}"
+      ],
+      "settings": {
+        "title": "Tatara's Featured Products",
+        "heading_size": "h1",
+        "description": "<p>The right accessories enhance your work, making every cut sharper and every drill smoother. Tatara brings you expertly crafted products designed for both <strong>professionals and home DIYers</strong>, ensuring <strong>effortless precision and lasting durability</strong>.</p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 5,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-b246e394-bd46-4588-8921-74370a398356",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
     "image_with_text_PCFhm7": {
       "type": "image-with-text",
       "blocks": {
@@ -730,11 +761,8 @@
         "padding_bottom": 52
       }
     },
-    "featured_collection": {
+    "featured_collection_zijp8Y": {
       "type": "featured-collection",
-      "custom_css": [
-        ".collection__title {text-align: center;}"
-      ],
       "settings": {
         "title": "Our Best-Selling Japan-Quality Accessories",
         "heading_size": "h1",
@@ -768,6 +796,7 @@
     "multicolumn_EM3Ejm",
     "image_with_text_JqJRnX",
     "rich_text_kgArK9",
+    "featured_collection",
     "image_with_text_PCFhm7",
     "brand_comparison_3PQbdt",
     "image_with_text_QdHXHV",
@@ -776,6 +805,6 @@
     "collapsible_content_xmK7XH",
     "newsletter_bLTeRV",
     "rich_text_cg4E6h",
-    "featured_collection"
+    "featured_collection_zijp8Y"
   ]
 }
