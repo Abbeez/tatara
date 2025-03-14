@@ -71,23 +71,11 @@
           "settings": {
             "text": "<p>The ancient Tatara furnace represents more than just a method of metal production; it embodies a philosophy of unwavering dedication to quality. We strive to emulate the meticulous attention to detail and uncompromising standards of the Tatara masters in every product we create. This passion for excellence, infused with the Filipino spirit of hard work and ingenuity, is the driving force behind our commitment to delivering tools that exceed expectations.</p>"
           }
-        },
-        "button_X6WmBR": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "heading_YKPktq",
-        "text_6jXaF4",
-        "button_X6WmBR"
+        "text_6jXaF4"
       ],
       "settings": {
         "desktop_content_position": "center",
