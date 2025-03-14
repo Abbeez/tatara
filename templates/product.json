@@ -61,6 +61,12 @@
             "show_gift_card_recipient": true
           }
         },
+        "custom_liquid_zz8Lrz": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% render 'product-redirect' %}"
+          }
+        },
         "custom_liquid_7WiVN9": {
           "type": "custom_liquid",
           "settings": {
@@ -85,12 +91,6 @@
             "text_style": "body"
           }
         },
-        "custom_liquid_zz8Lrz": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% render 'product-redirect' %}"
-          }
-        },
         "share": {
           "type": "share",
           "settings": {
@@ -108,11 +108,11 @@
         "custom_liquid_NGgXii",
         "quantity_selector",
         "buy_buttons",
+        "custom_liquid_zz8Lrz",
         "custom_liquid_7WiVN9",
         "text_Yg9cpm",
         "description",
         "text_9Gzqz8",
-        "custom_liquid_zz8Lrz",
         "share"
       ],
       "settings": {
