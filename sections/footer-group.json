@@ -11,40 +11,6 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
-    "newsletter_wNNgkf": {
-      "type": "newsletter",
-      "blocks": {
-        "heading_U7rxkQ": {
-          "type": "heading",
-          "settings": {
-            "heading": "Stay Updated on the Best Accessories",
-            "heading_size": "h2"
-          }
-        },
-        "paragraph_XCURQi": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Get the latest on new arrivals, exclusive offers, and expert tips straight to your inbox.</p>"
-          }
-        },
-        "email_form_98YTwU": {
-          "type": "email_form",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "heading_U7rxkQ",
-        "paragraph_XCURQi",
-        "email_form_98YTwU"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "scheme-5",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -100,7 +66,6 @@
     }
   },
   "order": [
-    "newsletter_wNNgkf",
     "footer"
   ]
 }
