@@ -23,7 +23,7 @@
         "caption_W8Cfa8": {
           "type": "caption",
           "settings": {
-            "caption": "About Tatara",
+            "caption": "Our Story",
             "text_style": "caption-with-letter-spacing",
             "text_size": "medium"
           }
@@ -31,14 +31,14 @@
         "heading_d8VUUV": {
           "type": "heading",
           "settings": {
-            "heading": "Japan-Quality Accessories",
+            "heading": "The Legacy of Tatara",
             "heading_size": "h1"
           }
         },
         "text_j3zXga": {
           "type": "text",
           "settings": {
-            "text": "<p>At <strong>Tatara</strong>, we are committed to delivering <strong>Japan-quality accessories</strong> built for professionals and enthusiasts alike. Whether you're working on woodworking, metalworking, or general construction, our range of <strong>chisels, drill bits, circular saws, and more</strong> is designed to provide <strong>precision and durability in every cut, carve, and drill.</strong></p>"
+            "text": "<p>Tatara was established in <strong>2006</strong>, driven by a vision to bring unparalleled precision and durability to the world of tool accessories. We are deeply inspired by the traditional <strong>Japanese Tatara furnace</strong>, renowned for producing some of the finest metalwork in history. This legacy of exceptional craftsmanship forms the cornerstone of our brand, now dedicated to meeting the needs of <strong>Filipinos</strong>.</p>"
           }
         }
       },
@@ -54,6 +54,48 @@
         "full_width": true,
         "padding_top": 60,
         "padding_bottom": 60
+      }
+    },
+    "rich_text_rGTdkF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YKPktq": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Spirit of Tatara",
+            "heading_size": "h2"
+          }
+        },
+        "text_6jXaF4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The ancient Tatara furnace represents more than just a method of metal production; it embodies a philosophy of unwavering dedication to quality. We strive to emulate the meticulous attention to detail and uncompromising standards of the Tatara masters in every product we create. This passion for excellence, infused with the Filipino spirit of hard work and ingenuity, is the driving force behind our commitment to delivering tools that exceed expectations.</p>"
+          }
+        },
+        "button_X6WmBR": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_YKPktq",
+        "text_6jXaF4",
+        "button_X6WmBR"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-5a1384fa-81b6-4e02-a583-b6d030b3de97",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "static_image_TCBTGq": {
@@ -166,7 +208,7 @@
         ".multicolumn-card__info {background: #ffff; color: #888 !important;}"
       ],
       "settings": {
-        "title": "Where You Can Find Tatara",
+        "title": "<strong>Where Can You Find Tatara Accessories?</strong>",
         "heading_size": "h1",
         "image_width": "third",
         "image_ratio": "adapt",
@@ -308,8 +350,8 @@
         "collections_JJq4HX"
       ],
       "settings": {
-        "short_description": "Tatara isn’t just another brand—it’s a guarantee of power, precision, and durability.",
-        "heading": "Featured Japan-Quality Accessories",
+        "short_description": "Tatara equips you to take control of every project. Explore our expertly crafted tool categories and find the perfect match for your needs.",
+        "heading": "Access Your Power",
         "cta_text": "Shop Now & Upgrade Your Toolkit",
         "cta_link": "",
         "padding_top": 60,
@@ -320,6 +362,7 @@
   "order": [
     "main",
     "rich_text_f9GqAc",
+    "rich_text_rGTdkF",
     "static_image_TCBTGq",
     "image_with_text_TNgdby",
     "multicolumn_MRqKeH",
