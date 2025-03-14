@@ -28,18 +28,25 @@
 
 <div class="shop-redirect">
   <h3 class="">Also available on</h3>
+
   <div class="shopee-redirect">
-    <a
-      href="{% if shopee_link %}{{ shopee_link }}{{ else }}https://shopee.ph/shop/1473336486{% endif %}"
-      target="_blank"
-      ><img src="https://cdn.shopify.com/s/files/1/0742/3521/6090/files/Tatara_-_Shopee.png?v=1741621034"
-    ></a>
+    {% if shopee_link %}
+      <a href="{{ shopee_link }}" target="_blank">
+    {% else %}
+      <a href="https://shopee.ph/shop/1473336486" target="_blank">
+    {% endif %}
+        <img src="https://cdn.shopify.com/s/files/1/0742/3521/6090/files/Tatara_-_Shopee.png?v=1741621034">
+      </a>
   </div>
+
   <div class="lazada-redirect">
-    <a
-      href="{% if lazada_link %}{{ lazada_link }}{{ else }}https://www.lazada.com.ph/shop/tatara{% endif %}"
-      target="_blank"
-      ><img src="https://cdn.shopify.com/s/files/1/0742/3521/6090/files/Tatara_-_Lazada.png?v=1741621034"
-    ></a>
+    {% if lazada_link %}
+      <a href="{{ lazada_link }}" target="_blank">
+    {% else %}
+      <a href="https://www.lazada.com.ph/shop/tatara" target="_blank">
+    {% endif %}
+        <img src="https://cdn.shopify.com/s/files/1/0742/3521/6090/files/Tatara_-_Lazada.png?v=1741621034">
+      </a>
   </div>
 </div>
+
