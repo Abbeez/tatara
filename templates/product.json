@@ -85,6 +85,12 @@
             "text_style": "body"
           }
         },
+        "custom_liquid_zz8Lrz": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% render 'product-redirect' %}"
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -106,6 +112,7 @@
         "text_Yg9cpm",
         "description",
         "text_9Gzqz8",
+        "custom_liquid_zz8Lrz",
         "share"
       ],
       "settings": {
