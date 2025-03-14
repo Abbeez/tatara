@@ -363,11 +363,11 @@
         "button_M76K8n"
       ],
       "settings": {
-        "image": "shopify://shop_images/About_Tatara_-_Products.png",
+        "image": "shopify://shop_images/Tara-with-construction-tools.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "scheme-5a1384fa-81b6-4e02-a583-b6d030b3de97",
@@ -475,11 +475,11 @@
         "button_H6V4L8"
       ],
       "settings": {
-        "image": "shopify://shop_images/Tatara_-_Collection.png",
+        "image": "shopify://shop_images/Tara-thumbs-up.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "scheme-5a1384fa-81b6-4e02-a583-b6d030b3de97",
