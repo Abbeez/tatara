@@ -32,25 +32,34 @@
         "collapsible_row_KNJpMF": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Are Tatara accessories made in Japan?",
+            "heading": "What types of tools does Tatara offer?",
             "icon": "none",
-            "row_content": "<p>Tatara accessories are designed with Japanese precision and craftsmanship, ensuring top-tier quality and performance.</p>",
+            "row_content": "<p>Tatara offers a wide range of tools, including drill bits, chisels, router bits, cutting discs, abrasive discs, brushes, and more. We specialize in both power tool accessories and hand tools to meet various needs.</p>",
             "page": ""
           }
         },
         "collapsible_row_jyxbEt": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Do you have a physical store?",
+            "heading": "Are Tatara tools designed for professional or home use?",
             "icon": "none",
-            "row_content": "<p>Currently, we operate online only. You can shop conveniently through this website and our upcoming Tiktok, Lazada and Shopee stores.</p>",
+            "row_content": "<p>Tatara tools cater to both professional tradespeople and home DIY enthusiasts. We offer a range of tools designed for various levels of use and durability.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_6889tH": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I choose the right Tatara tool for my project?",
+            "icon": "none",
+            "row_content": "<p>Consider the material you will be working with, the specific task you need to perform, and the tool's specifications. If you need assistance, our customer service team is happy to help you select the appropriate tool.</p>",
             "page": ""
           }
         },
         "collapsible_row_bBTcXJ": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Where can I buy Tatara accessories?",
+            "heading": "Do you have a physical store?",
             "icon": "none",
             "row_content": "<p>You can purchase our Japan-quality accessories through:<br/>🛍 <strong>Lazada: </strong><a href=\"https://www.lazada.com.ph/shop/tatara \" target=\"_blank\" title=\"https://www.lazada.com.ph/shop/tatara \">https://www.lazada.com.ph/shop/tatara </a><br/>🛍 <strong>Shopee:</strong> <a href=\"https://shopee.ph/shop/1473336486\" target=\"_blank\" title=\"https://shopee.ph/shop/1473336486\">https://shopee.ph/shop/1473336486</a><br/>🛍 <strong>TikTok Shop:</strong> <a href=\"https://vt.tiktok.com/ZSMbr595w/?page=TikTokShop\" target=\"_blank\" title=\"https://vt.tiktok.com/ZSMbr595w/?page=TikTokShop\">https://vt.tiktok.com/ZSMbr595w/?page=TikTokShop</a></p>",
             "page": ""
@@ -61,7 +70,7 @@
           "settings": {
             "heading": "What payment methods do you accept?",
             "icon": "none",
-            "row_content": "<p>We accept multiple payment options for your convenience:<br/>✅ <strong>Bank Transfers:</strong> BPI, China Bank, RCBC, UnionBank<br/>✅ <strong>E-Wallets:</strong> GCash, GrabPay, Maya<br/>✅ <strong>Credit/Debit Cards:</strong> Visa, Mastercard<br/>✅ <strong>Cash on Delivery (COD):</strong> Available on Lazada, Shopee, and TikTok Shop</p>",
+            "row_content": "<p>We accept multiple payment options for your convenience:</p><ul><li>✅ Bank Transfers: BPI, China Bank, RCBC, UnionBank</li><li>✅ E-Wallets: GCash, GrabPay, Maya</li><li>✅ Credit/Debit Cards: Visa, Mastercard</li><li>✅ Cash on Delivery (COD): Available on Lazada, Shopee, and TikTok Shop<br/><br/>We are actively working to add more payment gateways to improve your shopping experience. Stay tuned for updates!</li></ul>",
             "page": ""
           }
         }
@@ -69,6 +78,7 @@
       "block_order": [
         "collapsible_row_KNJpMF",
         "collapsible_row_jyxbEt",
+        "collapsible_row_6889tH",
         "collapsible_row_bBTcXJ",
         "collapsible_row_pGG8DK"
       ],
@@ -90,6 +100,15 @@
     "collapsible_content_L3Yjgr": {
       "type": "collapsible-content",
       "blocks": {
+        "collapsible_row_69BNCh": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are your shipping options and costs?",
+            "icon": "none",
+            "row_content": "<p>We offer various shipping options. Shipping costs are calculated based on your order's weight, dimensions, and destination. You can see the shipping costs at checkout before completing your purchase.</p>",
+            "page": ""
+          }
+        },
         "collapsible_row_WUF6eq": {
           "type": "collapsible_row",
           "settings": {
@@ -110,6 +129,7 @@
         }
       },
       "block_order": [
+        "collapsible_row_69BNCh",
         "collapsible_row_WUF6eq",
         "collapsible_row_bGehD8"
       ],
@@ -144,6 +164,7 @@
       "block_order": [
         "collapsible_row_kG3DLy"
       ],
+      "disabled": true,
       "settings": {
         "caption": "",
         "heading": "Returns & Refunds",
@@ -175,6 +196,7 @@
       "block_order": [
         "collapsible_row_gmNjt6"
       ],
+      "disabled": true,
       "settings": {
         "caption": "",
         "heading": "Bulk & Wholesale Orders",
