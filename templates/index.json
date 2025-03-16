@@ -549,78 +549,57 @@
     "custom_collection_grid_6DCqgj": {
       "type": "custom-collection-grid",
       "blocks": {
-        "collections_Wc8Xt7": {
+        "collections_bQz7ma": {
           "type": "Collections",
           "settings": {
-            "boxed_collection": "brush"
+            "boxed_collection": "chisels-carving-tools"
           }
         },
-        "collections_8LKPAw": {
+        "collections_rqVBXL": {
           "type": "Collections",
           "settings": {
-            "boxed_collection": "blades"
+            "boxed_collection": "cutting-blades-discs"
           }
         },
-        "collections_ALrAKj": {
+        "collections_WYFHHP": {
           "type": "Collections",
           "settings": {
-            "boxed_collection": "chisel"
+            "boxed_collection": "drill-bits-attachments"
           }
         },
-        "collections_pf6dxH": {
+        "collections_r7LthJ": {
           "type": "Collections",
           "settings": {
-            "boxed_collection": "cutter"
+            "boxed_collection": "grinding-polishing-wheels"
           }
         },
-        "collections_aen3yL": {
+        "collections_rBWErb": {
           "type": "Collections",
           "settings": {
-            "boxed_collection": "disc"
+            "boxed_collection": "router-bits-sets"
           }
         },
-        "collections_7kXryJ": {
+        "collections_fYCyJJ": {
           "type": "Collections",
           "settings": {
-            "boxed_collection": "drill-bit"
+            "boxed_collection": "sanding-finishing-supplies"
           }
         },
-        "collections_hRLqmD": {
+        "collections_mPEhTy": {
           "type": "Collections",
           "settings": {
-            "boxed_collection": "router"
-          }
-        },
-        "collections_7b8L4C": {
-          "type": "Collections",
-          "settings": {
-            "boxed_collection": "sanding"
-          }
-        },
-        "collections_7zP6Hd": {
-          "type": "Collections",
-          "settings": {
-            "boxed_collection": "sds"
-          }
-        },
-        "collections_fhrtYe": {
-          "type": "Collections",
-          "settings": {
-            "boxed_collection": "blades"
+            "boxed_collection": "other-accessories"
           }
         }
       },
       "block_order": [
-        "collections_Wc8Xt7",
-        "collections_8LKPAw",
-        "collections_ALrAKj",
-        "collections_pf6dxH",
-        "collections_aen3yL",
-        "collections_7kXryJ",
-        "collections_hRLqmD",
-        "collections_7b8L4C",
-        "collections_7zP6Hd",
-        "collections_fhrtYe"
+        "collections_bQz7ma",
+        "collections_rqVBXL",
+        "collections_WYFHHP",
+        "collections_r7LthJ",
+        "collections_rBWErb",
+        "collections_fYCyJJ",
+        "collections_mPEhTy"
       ],
       "settings": {
         "short_description": "No matter the task, Tatara has the tool to get it done—faster, sharper, and more efficiently.",
