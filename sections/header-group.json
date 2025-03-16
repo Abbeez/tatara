@@ -28,10 +28,10 @@
       "settings": {
         "color_scheme": "scheme-62fcb6fe-4a72-48d9-a15f-b78d4e8b70d3",
         "show_line_separator": false,
-        "show_social": false,
+        "show_social": true,
         "auto_rotate": true,
         "change_slides_speed": 5,
-        "enable_country_selector": false,
+        "enable_country_selector": true,
         "enable_language_selector": false
       }
     },
