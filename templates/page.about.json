@@ -274,55 +274,43 @@
         "collections_78Whe4": {
           "type": "Collections",
           "settings": {
-            "boxed_collection": "blades"
+            "boxed_collection": "chisels-carving-tools"
           }
         },
         "collections_gzP8XU": {
           "type": "Collections",
           "settings": {
-            "boxed_collection": "brush"
+            "boxed_collection": "cutting-blades-discs"
           }
         },
         "collections_xHP7we": {
           "type": "Collections",
           "settings": {
-            "boxed_collection": "chisel"
+            "boxed_collection": "drill-bits-attachments"
           }
         },
         "collections_6b99Mr": {
           "type": "Collections",
           "settings": {
-            "boxed_collection": "cutter"
-          }
-        },
-        "collections_CEVXFx": {
-          "type": "Collections",
-          "settings": {
-            "boxed_collection": "disc"
+            "boxed_collection": "grinding-polishing-wheels"
           }
         },
         "collections_GeA6Fn": {
           "type": "Collections",
           "settings": {
-            "boxed_collection": "drill-bit"
+            "boxed_collection": "router-bits-sets"
           }
         },
         "collections_7w7EfU": {
           "type": "Collections",
           "settings": {
-            "boxed_collection": "router"
+            "boxed_collection": "sanding-finishing-supplies"
           }
         },
-        "collections_wxjrp9": {
+        "collections_CEVXFx": {
           "type": "Collections",
           "settings": {
-            "boxed_collection": "sanding"
-          }
-        },
-        "collections_JJq4HX": {
-          "type": "Collections",
-          "settings": {
-            "boxed_collection": "sds"
+            "boxed_collection": "other-accessories"
           }
         }
       },
@@ -331,11 +319,9 @@
         "collections_gzP8XU",
         "collections_xHP7we",
         "collections_6b99Mr",
-        "collections_CEVXFx",
         "collections_GeA6Fn",
         "collections_7w7EfU",
-        "collections_wxjrp9",
-        "collections_JJq4HX"
+        "collections_CEVXFx"
       ],
       "settings": {
         "short_description": "Tatara equips you to take control of every project. Explore our expertly crafted tool categories and find the perfect match for your needs.",
