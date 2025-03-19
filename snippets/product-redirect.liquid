@@ -24,7 +24,9 @@
 {% endstyle %}
 
 {% assign shopee_link = product.metafields.custom.shopee_redirect.value.url %}
+{% assign shopee_alt = product.metafields.custom.shopee_redirect.value.alt %}
 {% assign lazada_link = product.metafields.custom.lazada_redirect.value.url %}
+{% assign lazada_alt = product.metafields.custom.shopee_redirect.value.alt %}
 
 <div class="shop-redirect">
   <h3 class="">Also available on</h3>
@@ -32,14 +34,18 @@
     <a
       href="{% if shopee_link %}{{ shopee_link }}{% else %} https://shopee.ph/shop/1473336486{% endif %}"
       target="_blank"
-      ><img src="https://cdn.shopify.com/s/files/1/0742/3521/6090/files/Tatara_-_Shopee.png?v=1741621034"
+      ><img
+        src="https://cdn.shopify.com/s/files/1/0742/3521/6090/files/Tatara_-_Shopee.png?v=1741621034"
+        alt="{{ shopee_alt }}"
     ></a>
   </div>
   <div class="lazada-redirect">
     <a
       href="{% if lazada_link %}{{ lazada_link }}{% else %} https://www.lazada.com.ph/shop/tatara{% endif %}"
       target="_blank"
-      ><img src="https://cdn.shopify.com/s/files/1/0742/3521/6090/files/Tatara_-_Lazada.png?v=1741621034"
+      ><img
+        src="https://cdn.shopify.com/s/files/1/0742/3521/6090/files/Tatara_-_Lazada.png?v=1741621034"
+        alt="{{ lazada_alt }}"
     ></a>
   </div>
 </div>
