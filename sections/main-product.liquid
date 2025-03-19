@@ -105,7 +105,10 @@
           <h3>Payment Methods</h3>
           <ul>
             {% for item in shop.metaobjects.payment_methods.values %}
-              <li><img src="{{ item.photo | img_url: '300x300' }}" alt="{{ item.title }}"></li>
+              <li>
+                {{ item.photo.alt -}}
+                <img src="{{ item.photo | img_url: '300x300' }}" alt="{{ item.title }}">
+              </li>
             {% endfor %}
           </ul>
         </div>
