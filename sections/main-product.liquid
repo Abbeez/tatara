@@ -106,7 +106,6 @@
           <ul>
             {% for item in shop.metaobjects.payment_methods.values %}
               <li>
-                {{ item.photo.alt }}
                 <img src="{{ item.photo | img_url: '300x300' }}" alt="{{ item.title }}">
               </li>
             {% endfor %}
