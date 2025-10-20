@@ -64,13 +64,30 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "image_banner_ARYWte": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/October_Exlusive_Online_Offer_WEB.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Tatara – Japan-Quality Accessories for Precision & Performance",
+            "heading": "Tatara – Universal Japan-Quality Accessories for Precision & Performance",
             "heading_size": "h0"
           }
         },
@@ -101,7 +118,7 @@
       "settings": {
         "image": "shopify://shop_images/Access_your_power_with_Tatara_-_Accessories.png",
         "image_overlay_opacity": 0,
-        "image_height": "adapt",
+        "image_height": "small",
         "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
@@ -773,6 +790,7 @@
   },
   "order": [
     "slideshow_PBQbrF",
+    "image_banner_ARYWte",
     "image_banner",
     "multicolumn_EM3Ejm",
     "image_with_text_JqJRnX",
